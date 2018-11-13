@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
 options: "e31e7e0a59f4a7ed0e896dbdc5765d47"
-build_time: [1542128133, 490666000]
+build_time: [1542128249, 908311000]
 inputs:
   "/Users/olhadanylova/Desktop/BackendlessUI/BackendlessUI/Cells/ObjectDetailCell.swift": [9223372036, 854775807]
   "/Users/olhadanylova/Desktop/BackendlessUI/BackendlessUI/Views/BackendlessRestorePasswordView.swift": [9223372036, 854775807]
