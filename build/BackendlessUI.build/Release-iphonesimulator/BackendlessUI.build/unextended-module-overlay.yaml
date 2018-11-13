@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/olhadanylova/Library/Developer/Xcode/DerivedData/BackendlessUI-frealplzgyomabgkgayrezydadmr/Build/Products/Release-iphonesimulator/BackendlessUI.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/build/BackendlessUI.build/Release-iphonesimulator/BackendlessUI.build/unextended-module.modulemap",
+    }]
+  }]
+}

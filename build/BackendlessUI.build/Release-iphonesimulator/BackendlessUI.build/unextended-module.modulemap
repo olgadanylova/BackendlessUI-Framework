@@ -1,0 +1,10 @@
+framework module BackendlessUI {
+  umbrella header "BackendlessUI.h"
+
+  export *
+  module * { export * }
+}
+
+module BackendlessUI.__Swift {
+    exclude header "BackendlessUI-Swift.h"
+}

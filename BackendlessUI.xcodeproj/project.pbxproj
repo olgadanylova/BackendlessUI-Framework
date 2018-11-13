@@ -1,0 +1,1734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5E193443219A072B00E16AEB /* UniversalBackendlessUI */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5E193444219A072B00E16AEB /* Build configuration list for PBXAggregateTarget "UniversalBackendlessUI" */;
+			buildPhases = (
+				5E193447219A072F00E16AEB /* Run Script */,
+			);
+			dependencies = (
+			);
+			name = UniversalBackendlessUI;
+			productName = UniversalBackendlessUI;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		5E19343D219A070700E16AEB /* BackendlessUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19343B219A070700E16AEB /* BackendlessUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193475219A07D100E16AEB /* BackendlessTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E193449219A07D100E16AEB /* BackendlessTableView.xib */; };
+		5E193476219A07D100E16AEB /* UnrelatedObjectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E19344B219A07D100E16AEB /* UnrelatedObjectCell.xib */; };
+		5E193477219A07D100E16AEB /* ObjectDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E19344C219A07D100E16AEB /* ObjectDetailCell.xib */; };
+		5E193478219A07D100E16AEB /* BackendlessAddRelationsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E19344D219A07D100E16AEB /* BackendlessAddRelationsView.xib */; };
+		5E193479219A07D100E16AEB /* BackendlessObjectDetailsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E19344E219A07D100E16AEB /* BackendlessObjectDetailsView.xib */; };
+		5E19347A219A07D100E16AEB /* BackendlessSignUpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E19344F219A07D100E16AEB /* BackendlessSignUpView.xib */; };
+		5E19347B219A07D100E16AEB /* BackendlessRelationsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E193450219A07D100E16AEB /* BackendlessRelationsView.xib */; };
+		5E19347C219A07D100E16AEB /* BackendlessAddObjectView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E193451219A07D100E16AEB /* BackendlessAddObjectView.xib */; };
+		5E19347D219A07D100E16AEB /* BackendlessLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E193452219A07D100E16AEB /* BackendlessLoginView.xib */; };
+		5E19347E219A07D100E16AEB /* BackendlessRestorePasswordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E193453219A07D100E16AEB /* BackendlessRestorePasswordView.xib */; };
+		5E193480219A07D100E16AEB /* BackendlessLogoutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E193455219A07D100E16AEB /* BackendlessLogoutView.xib */; };
+		5E193481219A07D100E16AEB /* BackendlessAddObjectPropertyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E193456219A07D100E16AEB /* BackendlessAddObjectPropertyView.xib */; };
+		5E193482219A07D100E16AEB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E193458219A07D100E16AEB /* Extensions.swift */; };
+		5E193483219A07D100E16AEB /* BackendlessLogoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E19345A219A07D100E16AEB /* BackendlessLogoutView.swift */; };
+		5E193484219A07D100E16AEB /* BackendlessRelationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E19345B219A07D100E16AEB /* BackendlessRelationsView.swift */; };
+		5E193485219A07D100E16AEB /* BackendlessSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E19345C219A07D100E16AEB /* BackendlessSignUpView.swift */; };
+		5E193486219A07D100E16AEB /* BackendlessAddObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E19345D219A07D100E16AEB /* BackendlessAddObjectView.swift */; };
+		5E193487219A07D100E16AEB /* BackendlessAddRelationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E19345E219A07D100E16AEB /* BackendlessAddRelationsView.swift */; };
+		5E193488219A07D100E16AEB /* BackendlessTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E19345F219A07D100E16AEB /* BackendlessTableView.swift */; };
+		5E193489219A07D100E16AEB /* BackendlessObjectDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E193460219A07D100E16AEB /* BackendlessObjectDetailsView.swift */; };
+		5E19348A219A07D100E16AEB /* BackendlessAddObjectPropertyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E193461219A07D100E16AEB /* BackendlessAddObjectPropertyView.swift */; };
+		5E19348B219A07D100E16AEB /* BackendlessLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E193462219A07D100E16AEB /* BackendlessLoginView.swift */; };
+		5E19348D219A07D100E16AEB /* BackendlessRestorePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E193464219A07D100E16AEB /* BackendlessRestorePasswordView.swift */; };
+		5E19348E219A07D100E16AEB /* ObjectDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E193466219A07D100E16AEB /* ObjectDetailCell.swift */; };
+		5E19348F219A07D100E16AEB /* UnrelatedObjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E193467219A07D100E16AEB /* UnrelatedObjectCell.swift */; };
+		5E193490219A07D100E16AEB /* BackendlessTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E193469219A07D100E16AEB /* BackendlessTableViewController.swift */; };
+		5E193491219A07D100E16AEB /* BackendlessLogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E19346A219A07D100E16AEB /* BackendlessLogoutViewController.swift */; };
+		5E193492219A07D100E16AEB /* BackendlessAddObjectPropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E19346B219A07D100E16AEB /* BackendlessAddObjectPropertyViewController.swift */; };
+		5E193493219A07D100E16AEB /* BackendlessAddRelationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E19346C219A07D100E16AEB /* BackendlessAddRelationsViewController.swift */; };
+		5E193494219A07D100E16AEB /* BackendlessLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E19346D219A07D100E16AEB /* BackendlessLoginViewController.swift */; };
+		5E193495219A07D100E16AEB /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E19346E219A07D100E16AEB /* AlertViewController.swift */; };
+		5E193496219A07D100E16AEB /* BackendlessObjectDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E19346F219A07D100E16AEB /* BackendlessObjectDetailsViewController.swift */; };
+		5E193497219A07D100E16AEB /* BackendlessRelationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E193470219A07D100E16AEB /* BackendlessRelationsViewController.swift */; };
+		5E193498219A07D100E16AEB /* BackendlessAddObjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E193471219A07D100E16AEB /* BackendlessAddObjectViewController.swift */; };
+		5E19349A219A07D100E16AEB /* BackendlessSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E193473219A07D100E16AEB /* BackendlessSignUpViewController.swift */; };
+		5E19349B219A07D100E16AEB /* BackendlessRestorePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E193474219A07D100E16AEB /* BackendlessRestorePasswordViewController.swift */; };
+		5E1935A1219A08B500E16AEB /* BulkEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19349D219A08A600E16AEB /* BulkEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935A2219A08B500E16AEB /* IArgumentObjectFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19349E219A08A600E16AEB /* IArgumentObjectFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935A3219A08B500E16AEB /* PublishOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19349F219A08A600E16AEB /* PublishOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935A4219A08B500E16AEB /* BackendlessCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934A0219A08A600E16AEB /* BackendlessCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935A5219A08B500E16AEB /* BaseRTMPProtocolEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934A1219A08A600E16AEB /* BaseRTMPProtocolEncoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935A6219A08B500E16AEB /* IDataStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934A2219A08A600E16AEB /* IDataStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935A7219A08B500E16AEB /* V3StringReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934A3219A08A600E16AEB /* V3StringReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935A8219A08B500E16AEB /* AMFBodyWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934A4219A08A600E16AEB /* AMFBodyWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935A9219A08B500E16AEB /* GeoMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934A5219A08A600E16AEB /* GeoMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935AA219A08B500E16AEB /* ObjectReferenceWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934A6219A08A600E16AEB /* ObjectReferenceWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935AB219A08B500E16AEB /* FlashorbBinaryReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934A7219A08A600E16AEB /* FlashorbBinaryReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935AC219A08B500E16AEB /* IRTMProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934A8219A08A600E16AEB /* IRTMProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935AD219A08B500E16AEB /* ProtectedBackendlessGeoQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934A9219A08A600E16AEB /* ProtectedBackendlessGeoQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935AE219A08B500E16AEB /* WeborbSharedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934AA219A08A600E16AEB /* WeborbSharedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935AF219A08B500E16AEB /* RTMethodRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934AB219A08A600E16AEB /* RTMethodRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935B0219A08B500E16AEB /* IResponseAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934AC219A08A600E16AEB /* IResponseAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935B1219A08B500E16AEB /* GeoPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934AD219A08A600E16AEB /* GeoPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935B3219A08B500E16AEB /* NumberReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934AF219A08A600E16AEB /* NumberReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935B4219A08B500E16AEB /* BodyHolderWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934B0219A08A600E16AEB /* BodyHolderWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935B5219A08B500E16AEB /* ReaderUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934B1219A08A600E16AEB /* ReaderUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935B6219A08B500E16AEB /* Backendless-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934B2219A08A600E16AEB /* Backendless-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935B7219A08B500E16AEB /* IVideoStreamCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934B3219A08A600E16AEB /* IVideoStreamCodec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935B8219A08B500E16AEB /* PointerReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934B4219A08A600E16AEB /* PointerReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935B9219A08B500E16AEB /* Engine.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934B5219A08A600E16AEB /* Engine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935BA219A08B500E16AEB /* MapAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934B6219A08A600E16AEB /* MapAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935BB219A08B500E16AEB /* Channel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934B7219A08A600E16AEB /* Channel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935BC219A08B500E16AEB /* BodyHolder.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934B8219A08A600E16AEB /* BodyHolder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935BD219A08B500E16AEB /* GeoFence.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934B9219A08A600E16AEB /* GeoFence.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935BE219A08B500E16AEB /* AMFMessageWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934BA219A08A600E16AEB /* AMFMessageWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935BF219A08B500E16AEB /* DEBUG.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934BB219A08A600E16AEB /* DEBUG.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935C0219A08B500E16AEB /* BackendlessFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934BC219A08A600E16AEB /* BackendlessFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935C1219A08B500E16AEB /* NamedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934BD219A08A600E16AEB /* NamedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935C2219A08B500E16AEB /* FlexMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934BE219A08A600E16AEB /* FlexMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935C3219A08B500E16AEB /* IAudioStreamCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934BF219A08A600E16AEB /* IAudioStreamCodec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935C4219A08B500E16AEB /* PendingCall.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934C0219A08A600E16AEB /* PendingCall.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935C5219A08B500E16AEB /* EventHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934C1219A08A600E16AEB /* EventHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935C6219A08B500E16AEB /* BeaconMonitoring.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934C2219A08A600E16AEB /* BeaconMonitoring.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935C7219A08B500E16AEB /* QueryOptionsBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934C3219A08A600E16AEB /* QueryOptionsBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935C8219A08B500E16AEB /* MHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934C4219A08A600E16AEB /* MHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935C9219A08B500E16AEB /* SharedObjectChanges.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934C5219A08A600E16AEB /* SharedObjectChanges.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935CA219A08B500E16AEB /* AnonymousObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934C6219A08A600E16AEB /* AnonymousObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935CB219A08B500E16AEB /* AbstractProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934C7219A08A600E16AEB /* AbstractProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935CC219A08B500E16AEB /* ByteArrayType.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934C8219A08A600E16AEB /* ByteArrayType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935CD219A08B500E16AEB /* ORBConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934C9219A08A600E16AEB /* ORBConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935CE219A08B500E16AEB /* Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934CA219A08A600E16AEB /* Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935CF219A08B500E16AEB /* LocationTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934CB219A08A600E16AEB /* LocationTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935D0219A08B500E16AEB /* IRTMPEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934CC219A08A600E16AEB /* IRTMPEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935D1219A08B500E16AEB /* AMFHeaderWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934CD219A08A600E16AEB /* AMFHeaderWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935D2219A08B500E16AEB /* ISharedObjectListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934CE219A08A600E16AEB /* ISharedObjectListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935D3219A08B500E16AEB /* BodyParts.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934CF219A08A600E16AEB /* BodyParts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935D4219A08B500E16AEB /* RTHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934D0219A08A600E16AEB /* RTHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935D5219A08B500E16AEB /* DeviceRegistrationAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934D1219A08A600E16AEB /* DeviceRegistrationAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935D6219A08B500E16AEB /* BackendlessBeacon.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934D2219A08A600E16AEB /* BackendlessBeacon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935D7219A08B500E16AEB /* RTClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934D3219A08A600E16AEB /* RTClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935D8219A08B500E16AEB /* MessagingService.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934D4219A08A600E16AEB /* MessagingService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935D9219A08B500E16AEB /* AmfV3Formatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934D5219A08A600E16AEB /* AmfV3Formatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935DA219A08B500E16AEB /* ReqMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934D6219A08A600E16AEB /* ReqMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935DB219A08B500E16AEB /* PublishMessageInfoWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934D7219A08A600E16AEB /* PublishMessageInfoWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935DC219A08B500E16AEB /* DateReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934D8219A08A600E16AEB /* DateReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935DD219A08B500E16AEB /* JSONHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934D9219A08A600E16AEB /* JSONHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935DE219A08B500E16AEB /* Types.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934DA219A08A600E16AEB /* Types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935DF219A08B500E16AEB /* PublishMessageInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934DB219A08A600E16AEB /* PublishMessageInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935E0219A08B500E16AEB /* NotAReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934DC219A08A600E16AEB /* NotAReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935E1219A08B500E16AEB /* RTService.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934DD219A08A600E16AEB /* RTService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935E2219A08B500E16AEB /* ICastingAttributeStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934DE219A08A600E16AEB /* ICastingAttributeStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935E3219A08B500E16AEB /* VoidResponseWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934DF219A08A600E16AEB /* VoidResponseWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935E4219A08B500E16AEB /* ITypeWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934E0219A08A600E16AEB /* ITypeWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935E5219A08B500E16AEB /* UTFStringReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934E1219A08A600E16AEB /* UTFStringReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935E6219A08B500E16AEB /* IClientSharedObjectDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934E2219A08A600E16AEB /* IClientSharedObjectDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935E7219A08B500E16AEB /* DataStoreFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934E3219A08A600E16AEB /* DataStoreFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935E8219A08B500E16AEB /* IClientSharedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934E4219A08A600E16AEB /* IClientSharedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935E9219A08B500E16AEB /* UserStatusObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934E5219A08A600E16AEB /* UserStatusObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935EA219A08B500E16AEB /* Body.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934E6219A08A600E16AEB /* Body.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935EB219A08B500E16AEB /* RTSubscription.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934E7219A08A600E16AEB /* RTSubscription.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935EC219A08B500E16AEB /* ArrayType.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934E8219A08A600E16AEB /* ArrayType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935ED219A08B500E16AEB /* IServiceCall.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934E9219A08A600E16AEB /* IServiceCall.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935EE219A08B500E16AEB /* RTMPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934EA219A08A600E16AEB /* RTMPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935EF219A08B500E16AEB /* Invoker.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934EB219A08A600E16AEB /* Invoker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935F0219A08B500E16AEB /* ArrayReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934EC219A08A600E16AEB /* ArrayReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935F1219A08B500E16AEB /* ServerCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934ED219A08A600E16AEB /* ServerCallback.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935F2219A08B500E16AEB /* CacheService.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934EE219A08A600E16AEB /* CacheService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935F3219A08B500E16AEB /* NullHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934EF219A08A600E16AEB /* NullHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935F4219A08B500E16AEB /* AbstractReferenceableTypeWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934F0219A08A600E16AEB /* AbstractReferenceableTypeWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935F5219A08B500E16AEB /* Events.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934F1219A08A600E16AEB /* Events.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935F6219A08B500E16AEB /* NullReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934F2219A08A600E16AEB /* NullReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935F7219A08B500E16AEB /* BaseEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934F3219A08A600E16AEB /* BaseEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935F8219A08B500E16AEB /* ReconnectAttemptObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934F4219A08A600E16AEB /* ReconnectAttemptObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935F9219A08B500E16AEB /* EventType.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934F5219A08A600E16AEB /* EventType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935FA219A08B500E16AEB /* RTMessaging.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934F6219A08A600E16AEB /* RTMessaging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935FB219A08B500E16AEB /* CommandObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934F7219A08A600E16AEB /* CommandObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935FC219A08B500E16AEB /* WeborbClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934F8219A08A600E16AEB /* WeborbClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935FD219A08B500E16AEB /* Presence.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934F9219A08A600E16AEB /* Presence.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935FE219A08B500E16AEB /* ClassCastException.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934FA219A08A600E16AEB /* ClassCastException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1935FF219A08B500E16AEB /* AuthorizationException.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934FB219A08A600E16AEB /* AuthorizationException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193600219A08B500E16AEB /* IServiceHandlerProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934FC219A08A600E16AEB /* IServiceHandlerProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193601219A08B500E16AEB /* BooleanReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934FD219A08A600E16AEB /* BooleanReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193602219A08B500E16AEB /* IProtocolFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934FE219A08A600E16AEB /* IProtocolFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193603219A08B500E16AEB /* IEventListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934FF219A08A600E16AEB /* IEventListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193604219A08B500E16AEB /* GeoFenceMonitoring.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193500219A08A600E16AEB /* GeoFenceMonitoring.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193605219A08B500E16AEB /* LogBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193501219A08A600E16AEB /* LogBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193606219A08B500E16AEB /* IPersistenceStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193502219A08A600E16AEB /* IPersistenceStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193607219A08B500E16AEB /* ISerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193503219A08A600E16AEB /* ISerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193608219A08B500E16AEB /* GeoCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193504219A08A600E16AEB /* GeoCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193609219A08B500E16AEB /* DateType.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193505219A08A600E16AEB /* DateType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19360A219A08B500E16AEB /* UserDefaultsHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193506219A08A600E16AEB /* UserDefaultsHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19360B219A08B500E16AEB /* ObjectProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193507219A08A600E16AEB /* ObjectProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19360C219A08B500E16AEB /* RTMProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193508219A08A600E16AEB /* RTMProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19360D219A08B500E16AEB /* KeychainDataStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193509219A08A600E16AEB /* KeychainDataStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19360E219A08B500E16AEB /* HashMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19350A219A08A600E16AEB /* HashMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19360F219A08B500E16AEB /* ISharedObjectMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19350B219A08A600E16AEB /* ISharedObjectMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193610219A08B500E16AEB /* QueryOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19350C219A08A600E16AEB /* QueryOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193611219A08B500E16AEB /* V3DateReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19350D219A08A600E16AEB /* V3DateReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193612219A08B500E16AEB /* Logging.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19350E219A08A600E16AEB /* Logging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193613219A08B500E16AEB /* BoundPropertyBagWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19350F219A08A600E16AEB /* BoundPropertyBagWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193614219A08B500E16AEB /* FileService.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193510219A08A600E16AEB /* FileService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193615219A08B500E16AEB /* Call.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193511219A08A600E16AEB /* Call.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193616219A08B500E16AEB /* RTSharedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193512219A08A600E16AEB /* RTSharedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193617219A08B500E16AEB /* MetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193513219A08A600E16AEB /* MetaData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193618219A08B500E16AEB /* RTMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193514219A08A600E16AEB /* RTMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193619219A08B500E16AEB /* SharedObjectEventType.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193515219A08A600E16AEB /* SharedObjectEventType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19361A219A08B500E16AEB /* StringWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193516219A08A600E16AEB /* StringWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19361B219A08B500E16AEB /* Aggregate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193517219A08A600E16AEB /* Aggregate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19361C219A08B500E16AEB /* LoadRelationsQueryBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193518219A08A600E16AEB /* LoadRelationsQueryBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19361D219A08B500E16AEB /* IPendingServiceCall.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193519219A08A600E16AEB /* IPendingServiceCall.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19361E219A08B500E16AEB /* BackendlessPushHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19351A219A08A600E16AEB /* BackendlessPushHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19361F219A08B500E16AEB /* IStreamPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19351B219A08A600E16AEB /* IStreamPacket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193620219A08B500E16AEB /* AdapterFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19351C219A08A600E16AEB /* AdapterFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193621219A08B500E16AEB /* MessageWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19351D219A08A600E16AEB /* MessageWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193622219A08B500E16AEB /* Invoke.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19351E219A08A600E16AEB /* Invoke.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193623219A08B500E16AEB /* HttpEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19351F219A08A600E16AEB /* HttpEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193624219A08B500E16AEB /* NamedObjectReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193520219A08A600E16AEB /* NamedObjectReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193625219A08B500E16AEB /* V3ObjectSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193521219A08A600E16AEB /* V3ObjectSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193626219A08B500E16AEB /* ErrMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193522219A08A600E16AEB /* ErrMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193627219A08B500E16AEB /* IEventDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193523219A08A600E16AEB /* IEventDispatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193628219A08B500E16AEB /* RTFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193524219A08A600E16AEB /* RTFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193629219A08B500E16AEB /* UserProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193525219A08A600E16AEB /* UserProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19362A219A08B500E16AEB /* Datatypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193526219A08A600E16AEB /* Datatypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19362B219A08B500E16AEB /* SharedObjectEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193527219A08A600E16AEB /* SharedObjectEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19362C219A08B500E16AEB /* BinaryStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193528219A08A600E16AEB /* BinaryStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19362D219A08B500E16AEB /* PagedQueryBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193529219A08A600E16AEB /* PagedQueryBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19362E219A08B500E16AEB /* BeaconTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19352A219A08A600E16AEB /* BeaconTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19362F219A08B500E16AEB /* IAtomicCounters.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19352B219A08A600E16AEB /* IAtomicCounters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193630219A08B500E16AEB /* AbstractUnreferenceableTypeWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19352C219A08A600E16AEB /* AbstractUnreferenceableTypeWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193631219A08B500E16AEB /* BackendlessCacheProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19352D219A08A600E16AEB /* BackendlessCacheProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193632219A08B500E16AEB /* SharedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19352E219A08A600E16AEB /* SharedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193633219A08B500E16AEB /* V3ArrayReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19352F219A08A600E16AEB /* V3ArrayReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193634219A08B500E16AEB /* AttributeStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193530219A08A600E16AEB /* AttributeStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193635219A08B500E16AEB /* V3Reader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193531219A08A600E16AEB /* V3Reader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193636219A08B500E16AEB /* CrowdNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193532219A08A600E16AEB /* CrowdNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193637219A08B500E16AEB /* ICacheService.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193533219A08A600E16AEB /* ICacheService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193638219A08B500E16AEB /* AbstractQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193534219A08A600E16AEB /* AbstractQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193639219A08B500E16AEB /* DateWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193535219A08A600E16AEB /* DateWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19363A219A08B500E16AEB /* ObjectSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193536219A08A600E16AEB /* ObjectSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19363B219A08B500E16AEB /* CacheFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193537219A08A600E16AEB /* CacheFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19363C219A08B500E16AEB /* DeviceRegistration.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193538219A08A600E16AEB /* DeviceRegistration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19363D219A08B500E16AEB /* IDeserializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193539219A08A600E16AEB /* IDeserializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19363E219A08B500E16AEB /* BooleanType.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19353A219A08A600E16AEB /* BooleanType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19363F219A08B500E16AEB /* V3ObjectReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19353B219A08A600E16AEB /* V3ObjectReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193640219A08B500E16AEB /* BackendlessSimpleQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19353C219A08A600E16AEB /* BackendlessSimpleQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193641219A08B500E16AEB /* BackendlessCacheKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19353D219A08A600E16AEB /* BackendlessCacheKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193642219A08B500E16AEB /* GeoService.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19353E219A08A600E16AEB /* GeoService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193643219A08B500E16AEB /* CustomService.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19353F219A08A600E16AEB /* CustomService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193644219A08B500E16AEB /* IEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193540219A08A600E16AEB /* IEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193645219A08B500E16AEB /* BinaryCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193541219A08A600E16AEB /* BinaryCodec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193646219A08B500E16AEB /* WebORBSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193542219A08A600E16AEB /* WebORBSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193647219A08B500E16AEB /* V3VectorReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193543219A08A600E16AEB /* V3VectorReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193648219A08B500E16AEB /* FlashorbBinaryWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193544219A08A600E16AEB /* FlashorbBinaryWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193649219A08B500E16AEB /* GeoCluster.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193545219A08A600E16AEB /* GeoCluster.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19364A219A08B500E16AEB /* RTListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193546219A08A600E16AEB /* RTListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19364B219A08B500E16AEB /* PropertyBagWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193547219A08A600E16AEB /* PropertyBagWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19364C219A08B500E16AEB /* Packet.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193548219A08A600E16AEB /* Packet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19364D219A08B500E16AEB /* FilePermission.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193549219A08A600E16AEB /* FilePermission.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19364E219A08B500E16AEB /* ISharedObjectEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19354A219A08A600E16AEB /* ISharedObjectEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19364F219A08B500E16AEB /* AsyncMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19354B219A08A600E16AEB /* AsyncMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193650219A08B500E16AEB /* IAttributeStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19354C219A08A600E16AEB /* IAttributeStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193651219A08B500E16AEB /* IntegerReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19354D219A08A600E16AEB /* IntegerReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193652219A08B500E16AEB /* IObjectSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19354E219A08A600E16AEB /* IObjectSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193653219A08B500E16AEB /* AtomicCounters.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19354F219A08A600E16AEB /* AtomicCounters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193654219A08B500E16AEB /* V3ReferenceCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193550219A08A600E16AEB /* V3ReferenceCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193655219A08B500E16AEB /* IPendingServiceCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193551219A08A600E16AEB /* IPendingServiceCallback.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193656219A08B500E16AEB /* IPresenceListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193552219A08A600E16AEB /* IPresenceListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193657219A08B500E16AEB /* BackendlessGeoQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193553219A08A600E16AEB /* BackendlessGeoQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193658219A08B500E16AEB /* InvokeObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193554219A08A600E16AEB /* InvokeObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193659219A08B500E16AEB /* Subscription.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193555219A08A600E16AEB /* Subscription.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19365A219A08B500E16AEB /* UICKeyChainStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193556219A08A600E16AEB /* UICKeyChainStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19365B219A08B500E16AEB /* DataQueryBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193557219A08A600E16AEB /* DataQueryBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19365C219A08B500E16AEB /* ClientCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193558219A08A600E16AEB /* ClientCallback.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19365D219A08B500E16AEB /* RequestParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193559219A08A600E16AEB /* RequestParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19365E219A08B500E16AEB /* SharedObjectService.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19355A219A08A600E16AEB /* SharedObjectService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19365F219A08B500E16AEB /* BackendlessEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19355B219A08A600E16AEB /* BackendlessEntity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193660219A08B500E16AEB /* NumberWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19355C219A08A600E16AEB /* NumberWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193661219A08B500E16AEB /* Request.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19355D219A08A600E16AEB /* Request.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193662219A08B500E16AEB /* NumberObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19355E219A08A600E16AEB /* NumberObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193663219A08B500E16AEB /* MultiDimArrayWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19355F219A08A600E16AEB /* MultiDimArrayWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193664219A08B500E16AEB /* ISharedObjectBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193560219A08A600E16AEB /* ISharedObjectBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193665219A08B500E16AEB /* IStreamDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193561219A08A600E16AEB /* IStreamDispatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193666219A08B500E16AEB /* ReferenceCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193562219A08A600E16AEB /* ReferenceCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193667219A08B500E16AEB /* IServiceObjectFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193563219A08A600E16AEB /* IServiceObjectFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193668219A08B500E16AEB /* ClassDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193564219A08A600E16AEB /* ClassDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193669219A08B500E16AEB /* BackendlessCachePolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193565219A08A600E16AEB /* BackendlessCachePolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19366A219A08B500E16AEB /* IPersistable.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193566219A08A600E16AEB /* IPersistable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19366B219A08B500E16AEB /* MapDrivenDataStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193567219A08A600E16AEB /* MapDrivenDataStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19366C219A08B500E16AEB /* ICacheableAdaptingType.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193568219A08A600E16AEB /* ICacheableAdaptingType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19366D219A08B500E16AEB /* StringReferenceWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193569219A08A600E16AEB /* StringReferenceWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19366E219A08B500E16AEB /* AtomicCountersFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19356A219A08A600E16AEB /* AtomicCountersFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19366F219A08B500E16AEB /* NotifyEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19356B219A08A600E16AEB /* NotifyEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193670219A08B500E16AEB /* BackendlessUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19356C219A08A600E16AEB /* BackendlessUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193671219A08B500E16AEB /* ObjectFactories.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19356D219A08A600E16AEB /* ObjectFactories.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193672219A08B500E16AEB /* Logger.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19356E219A08A600E16AEB /* Logger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193673219A08B500E16AEB /* BoundPropertyBagReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19356F219A08A600E16AEB /* BoundPropertyBagReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193674219A08B500E16AEB /* DefaultAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193570219A08A600E16AEB /* DefaultAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193675219A08B500E16AEB /* StringType.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193571219A08A600E16AEB /* StringType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193676219A08B500E16AEB /* NullType.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193572219A08A600E16AEB /* NullType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193677219A08B500E16AEB /* AmfFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193573219A08A600E16AEB /* AmfFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193678219A08B500E16AEB /* WebORBDeserializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193574219A08A600E16AEB /* WebORBDeserializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193679219A08B500E16AEB /* UserInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193575219A08A600E16AEB /* UserInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19367A219A08B500E16AEB /* V3ByteArrayReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193576219A08A600E16AEB /* V3ByteArrayReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19367B219A08B500E16AEB /* AckMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193577219A08A600E16AEB /* AckMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19367C219A08B500E16AEB /* ISharedObjectHandlerProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193578219A08A600E16AEB /* ISharedObjectHandlerProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19367D219A08B500E16AEB /* MessageStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193579219A08A600E16AEB /* MessageStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19367E219A08B500E16AEB /* ArrayWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19357A219A08A600E16AEB /* ArrayWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19367F219A08B500E16AEB /* CustomServiceAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19357B219A08A600E16AEB /* CustomServiceAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193680219A08B500E16AEB /* BackendlessDataQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19357C219A08A600E16AEB /* BackendlessDataQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193681219A08B500E16AEB /* Responder.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19357D219A08A600E16AEB /* Responder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193682219A08B500E16AEB /* SharedObjectMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19357E219A08A600E16AEB /* SharedObjectMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193683219A08B500E16AEB /* ICallback.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19357F219A08A600E16AEB /* ICallback.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193684219A08B500E16AEB /* ObjectWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193580219A08A600E16AEB /* ObjectWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193685219A08B500E16AEB /* RTMPConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193581219A08A600E16AEB /* RTMPConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193686219A08B500E16AEB /* ITypeReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193582219A08A600E16AEB /* ITypeReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193687219A08B500E16AEB /* UserService.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193583219A08A600E16AEB /* UserService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193688219A08B500E16AEB /* DeliveryOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193584219A08A600E16AEB /* DeliveryOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193689219A08B500E16AEB /* PersistenceService.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193585219A08A600E16AEB /* PersistenceService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19368A219A08B500E16AEB /* IAdaptingType.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193586219A08A600E16AEB /* IAdaptingType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19368B219A08B500E16AEB /* UndefinedType.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193587219A08A600E16AEB /* UndefinedType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19368C219A08B500E16AEB /* AnonymousObjectReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193588219A08A600E16AEB /* AnonymousObjectReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19368D219A08B500E16AEB /* BackendlessCacheData.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193589219A08A600E16AEB /* BackendlessCacheData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19368E219A08B500E16AEB /* UndefinedTypeReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19358A219A08A600E16AEB /* UndefinedTypeReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19368F219A08B500E16AEB /* DataPermission.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19358B219A08A600E16AEB /* DataPermission.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193690219A08B500E16AEB /* BackendlessUserAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19358C219A08A600E16AEB /* BackendlessUserAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193691219A08B500E16AEB /* ClientSharedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19358D219A08A600E16AEB /* ClientSharedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193692219A08B500E16AEB /* Ping.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19358E219A08A600E16AEB /* Ping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193693219A08B500E16AEB /* ParseContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19358F219A08A600E16AEB /* ParseContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193694219A08B500E16AEB /* AMFSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193590219A08A600E16AEB /* AMFSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193695219A08B500E16AEB /* BooleanWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193591219A08A600E16AEB /* BooleanWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193696219A08B500E16AEB /* LongUTFStringReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193592219A08A600E16AEB /* LongUTFStringReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193697219A08B500E16AEB /* VideoData.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193593219A08A600E16AEB /* VideoData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193698219A08B500E16AEB /* BaseRTMPProtocolDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193594219A08A600E16AEB /* BaseRTMPProtocolDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E193699219A08B500E16AEB /* ArrayReferenceWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193595219A08A600E16AEB /* ArrayReferenceWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19369A219A08B500E16AEB /* BeaconsInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193596219A08A600E16AEB /* BeaconsInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19369B219A08B500E16AEB /* BEFileInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193597219A08A600E16AEB /* BEFileInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19369C219A08B500E16AEB /* V3Message.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193598219A08A600E16AEB /* V3Message.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19369D219A08B500E16AEB /* AudioData.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E193599219A08A600E16AEB /* AudioData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19369E219A08B500E16AEB /* BodyHolderFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19359A219A08A600E16AEB /* BodyHolderFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E19369F219A08B500E16AEB /* AdaptResponder.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19359B219A08A600E16AEB /* AdaptResponder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1936A0219A08B500E16AEB /* ReaderReferenceCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19359C219A08A600E16AEB /* ReaderReferenceCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1936A1219A08B500E16AEB /* NullWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19359D219A08A600E16AEB /* NullWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1936A2219A08B500E16AEB /* CommandMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19359E219A08A600E16AEB /* CommandMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1936A3219A08B500E16AEB /* MemoryTicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E19359F219A08A600E16AEB /* MemoryTicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1936A4219A08B500E16AEB /* ConcreteObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1935A0219A08A600E16AEB /* ConcreteObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1936A5219A08E200E16AEB /* Backendless.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1934AE219A08A600E16AEB /* Backendless.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E909553219B311E00C129F8 /* BackendlessSocialLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E909552219B311E00C129F8 /* BackendlessSocialLoginView.xib */; };
+		5E909555219B312700C129F8 /* BackendlessSocialLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E909554219B312700C129F8 /* BackendlessSocialLoginView.swift */; };
+		5E909557219B312F00C129F8 /* BackendlessSocialLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E909556219B312E00C129F8 /* BackendlessSocialLoginViewController.swift */; };
+		F31CD07A425FD26CDF54018A /* Pods_BackendlessUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 087DF3ACAE409622FAC39E5D /* Pods_BackendlessUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		087DF3ACAE409622FAC39E5D /* Pods_BackendlessUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BackendlessUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		421C2B7432C4B274450D76CC /* Pods-BackendlessUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackendlessUI.release.xcconfig"; path = "Target Support Files/Pods-BackendlessUI/Pods-BackendlessUI.release.xcconfig"; sourceTree = "<group>"; };
+		5E193438219A070700E16AEB /* BackendlessUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BackendlessUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E19343B219A070700E16AEB /* BackendlessUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackendlessUI.h; sourceTree = "<group>"; };
+		5E19343C219A070700E16AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E193449219A07D100E16AEB /* BackendlessTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BackendlessTableView.xib; sourceTree = "<group>"; };
+		5E19344B219A07D100E16AEB /* UnrelatedObjectCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UnrelatedObjectCell.xib; sourceTree = "<group>"; };
+		5E19344C219A07D100E16AEB /* ObjectDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ObjectDetailCell.xib; sourceTree = "<group>"; };
+		5E19344D219A07D100E16AEB /* BackendlessAddRelationsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BackendlessAddRelationsView.xib; sourceTree = "<group>"; };
+		5E19344E219A07D100E16AEB /* BackendlessObjectDetailsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BackendlessObjectDetailsView.xib; sourceTree = "<group>"; };
+		5E19344F219A07D100E16AEB /* BackendlessSignUpView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BackendlessSignUpView.xib; sourceTree = "<group>"; };
+		5E193450219A07D100E16AEB /* BackendlessRelationsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BackendlessRelationsView.xib; sourceTree = "<group>"; };
+		5E193451219A07D100E16AEB /* BackendlessAddObjectView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BackendlessAddObjectView.xib; sourceTree = "<group>"; };
+		5E193452219A07D100E16AEB /* BackendlessLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BackendlessLoginView.xib; sourceTree = "<group>"; };
+		5E193453219A07D100E16AEB /* BackendlessRestorePasswordView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BackendlessRestorePasswordView.xib; sourceTree = "<group>"; };
+		5E193455219A07D100E16AEB /* BackendlessLogoutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BackendlessLogoutView.xib; sourceTree = "<group>"; };
+		5E193456219A07D100E16AEB /* BackendlessAddObjectPropertyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BackendlessAddObjectPropertyView.xib; sourceTree = "<group>"; };
+		5E193458219A07D100E16AEB /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5E19345A219A07D100E16AEB /* BackendlessLogoutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendlessLogoutView.swift; sourceTree = "<group>"; };
+		5E19345B219A07D100E16AEB /* BackendlessRelationsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendlessRelationsView.swift; sourceTree = "<group>"; };
+		5E19345C219A07D100E16AEB /* BackendlessSignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendlessSignUpView.swift; sourceTree = "<group>"; };
+		5E19345D219A07D100E16AEB /* BackendlessAddObjectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendlessAddObjectView.swift; sourceTree = "<group>"; };
+		5E19345E219A07D100E16AEB /* BackendlessAddRelationsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendlessAddRelationsView.swift; sourceTree = "<group>"; };
+		5E19345F219A07D100E16AEB /* BackendlessTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendlessTableView.swift; sourceTree = "<group>"; };
+		5E193460219A07D100E16AEB /* BackendlessObjectDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendlessObjectDetailsView.swift; sourceTree = "<group>"; };
+		5E193461219A07D100E16AEB /* BackendlessAddObjectPropertyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendlessAddObjectPropertyView.swift; sourceTree = "<group>"; };
+		5E193462219A07D100E16AEB /* BackendlessLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendlessLoginView.swift; sourceTree = "<group>"; };
+		5E193464219A07D100E16AEB /* BackendlessRestorePasswordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendlessRestorePasswordView.swift; sourceTree = "<group>"; };
+		5E193466219A07D100E16AEB /* ObjectDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectDetailCell.swift; sourceTree = "<group>"; };
+		5E193467219A07D100E16AEB /* UnrelatedObjectCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnrelatedObjectCell.swift; sourceTree = "<group>"; };
+		5E193469219A07D100E16AEB /* BackendlessTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendlessTableViewController.swift; sourceTree = "<group>"; };
+		5E19346A219A07D100E16AEB /* BackendlessLogoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendlessLogoutViewController.swift; sourceTree = "<group>"; };
+		5E19346B219A07D100E16AEB /* BackendlessAddObjectPropertyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendlessAddObjectPropertyViewController.swift; sourceTree = "<group>"; };
+		5E19346C219A07D100E16AEB /* BackendlessAddRelationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendlessAddRelationsViewController.swift; sourceTree = "<group>"; };
+		5E19346D219A07D100E16AEB /* BackendlessLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendlessLoginViewController.swift; sourceTree = "<group>"; };
+		5E19346E219A07D100E16AEB /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		5E19346F219A07D100E16AEB /* BackendlessObjectDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendlessObjectDetailsViewController.swift; sourceTree = "<group>"; };
+		5E193470219A07D100E16AEB /* BackendlessRelationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendlessRelationsViewController.swift; sourceTree = "<group>"; };
+		5E193471219A07D100E16AEB /* BackendlessAddObjectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendlessAddObjectViewController.swift; sourceTree = "<group>"; };
+		5E193473219A07D100E16AEB /* BackendlessSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendlessSignUpViewController.swift; sourceTree = "<group>"; };
+		5E193474219A07D100E16AEB /* BackendlessRestorePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendlessRestorePasswordViewController.swift; sourceTree = "<group>"; };
+		5E19349D219A08A600E16AEB /* BulkEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BulkEvent.h; sourceTree = "<group>"; };
+		5E19349E219A08A600E16AEB /* IArgumentObjectFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IArgumentObjectFactory.h; sourceTree = "<group>"; };
+		5E19349F219A08A600E16AEB /* PublishOptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublishOptions.h; sourceTree = "<group>"; };
+		5E1934A0219A08A600E16AEB /* BackendlessCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackendlessCache.h; sourceTree = "<group>"; };
+		5E1934A1219A08A600E16AEB /* BaseRTMPProtocolEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseRTMPProtocolEncoder.h; sourceTree = "<group>"; };
+		5E1934A2219A08A600E16AEB /* IDataStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDataStore.h; sourceTree = "<group>"; };
+		5E1934A3219A08A600E16AEB /* V3StringReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = V3StringReader.h; sourceTree = "<group>"; };
+		5E1934A4219A08A600E16AEB /* AMFBodyWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMFBodyWriter.h; sourceTree = "<group>"; };
+		5E1934A5219A08A600E16AEB /* GeoMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoMath.h; sourceTree = "<group>"; };
+		5E1934A6219A08A600E16AEB /* ObjectReferenceWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectReferenceWriter.h; sourceTree = "<group>"; };
+		5E1934A7219A08A600E16AEB /* FlashorbBinaryReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlashorbBinaryReader.h; sourceTree = "<group>"; };
+		5E1934A8219A08A600E16AEB /* IRTMProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRTMProtocol.h; sourceTree = "<group>"; };
+		5E1934A9219A08A600E16AEB /* ProtectedBackendlessGeoQuery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtectedBackendlessGeoQuery.h; sourceTree = "<group>"; };
+		5E1934AA219A08A600E16AEB /* WeborbSharedObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeborbSharedObject.h; sourceTree = "<group>"; };
+		5E1934AB219A08A600E16AEB /* RTMethodRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTMethodRequest.h; sourceTree = "<group>"; };
+		5E1934AC219A08A600E16AEB /* IResponseAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IResponseAdapter.h; sourceTree = "<group>"; };
+		5E1934AD219A08A600E16AEB /* GeoPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoPoint.h; sourceTree = "<group>"; };
+		5E1934AE219A08A600E16AEB /* Backendless.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Backendless.h; sourceTree = "<group>"; };
+		5E1934AF219A08A600E16AEB /* NumberReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberReader.h; sourceTree = "<group>"; };
+		5E1934B0219A08A600E16AEB /* BodyHolderWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BodyHolderWriter.h; sourceTree = "<group>"; };
+		5E1934B1219A08A600E16AEB /* ReaderUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReaderUtils.h; sourceTree = "<group>"; };
+		5E1934B2219A08A600E16AEB /* Backendless-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Backendless-Bridging-Header.h"; sourceTree = "<group>"; };
+		5E1934B3219A08A600E16AEB /* IVideoStreamCodec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVideoStreamCodec.h; sourceTree = "<group>"; };
+		5E1934B4219A08A600E16AEB /* PointerReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PointerReader.h; sourceTree = "<group>"; };
+		5E1934B5219A08A600E16AEB /* Engine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
+		5E1934B6219A08A600E16AEB /* MapAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapAdapter.h; sourceTree = "<group>"; };
+		5E1934B7219A08A600E16AEB /* Channel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Channel.h; sourceTree = "<group>"; };
+		5E1934B8219A08A600E16AEB /* BodyHolder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BodyHolder.h; sourceTree = "<group>"; };
+		5E1934B9219A08A600E16AEB /* GeoFence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoFence.h; sourceTree = "<group>"; };
+		5E1934BA219A08A600E16AEB /* AMFMessageWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMFMessageWriter.h; sourceTree = "<group>"; };
+		5E1934BB219A08A600E16AEB /* DEBUG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DEBUG.h; sourceTree = "<group>"; };
+		5E1934BC219A08A600E16AEB /* BackendlessFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackendlessFile.h; sourceTree = "<group>"; };
+		5E1934BD219A08A600E16AEB /* NamedObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NamedObject.h; sourceTree = "<group>"; };
+		5E1934BE219A08A600E16AEB /* FlexMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlexMessage.h; sourceTree = "<group>"; };
+		5E1934BF219A08A600E16AEB /* IAudioStreamCodec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAudioStreamCodec.h; sourceTree = "<group>"; };
+		5E1934C0219A08A600E16AEB /* PendingCall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PendingCall.h; sourceTree = "<group>"; };
+		5E1934C1219A08A600E16AEB /* EventHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventHandler.h; sourceTree = "<group>"; };
+		5E1934C2219A08A600E16AEB /* BeaconMonitoring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeaconMonitoring.h; sourceTree = "<group>"; };
+		5E1934C3219A08A600E16AEB /* QueryOptionsBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QueryOptionsBuilder.h; sourceTree = "<group>"; };
+		5E1934C4219A08A600E16AEB /* MHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHeader.h; sourceTree = "<group>"; };
+		5E1934C5219A08A600E16AEB /* SharedObjectChanges.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SharedObjectChanges.h; sourceTree = "<group>"; };
+		5E1934C6219A08A600E16AEB /* AnonymousObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnonymousObject.h; sourceTree = "<group>"; };
+		5E1934C7219A08A600E16AEB /* AbstractProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractProperty.h; sourceTree = "<group>"; };
+		5E1934C8219A08A600E16AEB /* ByteArrayType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ByteArrayType.h; sourceTree = "<group>"; };
+		5E1934C9219A08A600E16AEB /* ORBConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORBConstants.h; sourceTree = "<group>"; };
+		5E1934CA219A08A600E16AEB /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		5E1934CB219A08A600E16AEB /* LocationTracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationTracker.h; sourceTree = "<group>"; };
+		5E1934CC219A08A600E16AEB /* IRTMPEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRTMPEvent.h; sourceTree = "<group>"; };
+		5E1934CD219A08A600E16AEB /* AMFHeaderWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMFHeaderWriter.h; sourceTree = "<group>"; };
+		5E1934CE219A08A600E16AEB /* ISharedObjectListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISharedObjectListener.h; sourceTree = "<group>"; };
+		5E1934CF219A08A600E16AEB /* BodyParts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BodyParts.h; sourceTree = "<group>"; };
+		5E1934D0219A08A600E16AEB /* RTHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTHelper.h; sourceTree = "<group>"; };
+		5E1934D1219A08A600E16AEB /* DeviceRegistrationAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceRegistrationAdapter.h; sourceTree = "<group>"; };
+		5E1934D2219A08A600E16AEB /* BackendlessBeacon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackendlessBeacon.h; sourceTree = "<group>"; };
+		5E1934D3219A08A600E16AEB /* RTClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTClient.h; sourceTree = "<group>"; };
+		5E1934D4219A08A600E16AEB /* MessagingService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessagingService.h; sourceTree = "<group>"; };
+		5E1934D5219A08A600E16AEB /* AmfV3Formatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmfV3Formatter.h; sourceTree = "<group>"; };
+		5E1934D6219A08A600E16AEB /* ReqMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReqMessage.h; sourceTree = "<group>"; };
+		5E1934D7219A08A600E16AEB /* PublishMessageInfoWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublishMessageInfoWrapper.h; sourceTree = "<group>"; };
+		5E1934D8219A08A600E16AEB /* DateReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateReader.h; sourceTree = "<group>"; };
+		5E1934D9219A08A600E16AEB /* JSONHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSONHelper.h; sourceTree = "<group>"; };
+		5E1934DA219A08A600E16AEB /* Types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
+		5E1934DB219A08A600E16AEB /* PublishMessageInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublishMessageInfo.h; sourceTree = "<group>"; };
+		5E1934DC219A08A600E16AEB /* NotAReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotAReader.h; sourceTree = "<group>"; };
+		5E1934DD219A08A600E16AEB /* RTService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTService.h; sourceTree = "<group>"; };
+		5E1934DE219A08A600E16AEB /* ICastingAttributeStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICastingAttributeStore.h; sourceTree = "<group>"; };
+		5E1934DF219A08A600E16AEB /* VoidResponseWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoidResponseWrapper.h; sourceTree = "<group>"; };
+		5E1934E0219A08A600E16AEB /* ITypeWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITypeWriter.h; sourceTree = "<group>"; };
+		5E1934E1219A08A600E16AEB /* UTFStringReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UTFStringReader.h; sourceTree = "<group>"; };
+		5E1934E2219A08A600E16AEB /* IClientSharedObjectDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IClientSharedObjectDelegate.h; sourceTree = "<group>"; };
+		5E1934E3219A08A600E16AEB /* DataStoreFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataStoreFactory.h; sourceTree = "<group>"; };
+		5E1934E4219A08A600E16AEB /* IClientSharedObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IClientSharedObject.h; sourceTree = "<group>"; };
+		5E1934E5219A08A600E16AEB /* UserStatusObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserStatusObject.h; sourceTree = "<group>"; };
+		5E1934E6219A08A600E16AEB /* Body.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Body.h; sourceTree = "<group>"; };
+		5E1934E7219A08A600E16AEB /* RTSubscription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTSubscription.h; sourceTree = "<group>"; };
+		5E1934E8219A08A600E16AEB /* ArrayType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayType.h; sourceTree = "<group>"; };
+		5E1934E9219A08A600E16AEB /* IServiceCall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IServiceCall.h; sourceTree = "<group>"; };
+		5E1934EA219A08A600E16AEB /* RTMPClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTMPClient.h; sourceTree = "<group>"; };
+		5E1934EB219A08A600E16AEB /* Invoker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Invoker.h; sourceTree = "<group>"; };
+		5E1934EC219A08A600E16AEB /* ArrayReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayReader.h; sourceTree = "<group>"; };
+		5E1934ED219A08A600E16AEB /* ServerCallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerCallback.h; sourceTree = "<group>"; };
+		5E1934EE219A08A600E16AEB /* CacheService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CacheService.h; sourceTree = "<group>"; };
+		5E1934EF219A08A600E16AEB /* NullHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NullHelper.h; sourceTree = "<group>"; };
+		5E1934F0219A08A600E16AEB /* AbstractReferenceableTypeWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractReferenceableTypeWriter.h; sourceTree = "<group>"; };
+		5E1934F1219A08A600E16AEB /* Events.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Events.h; sourceTree = "<group>"; };
+		5E1934F2219A08A600E16AEB /* NullReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NullReader.h; sourceTree = "<group>"; };
+		5E1934F3219A08A600E16AEB /* BaseEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseEvent.h; sourceTree = "<group>"; };
+		5E1934F4219A08A600E16AEB /* ReconnectAttemptObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReconnectAttemptObject.h; sourceTree = "<group>"; };
+		5E1934F5219A08A600E16AEB /* EventType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventType.h; sourceTree = "<group>"; };
+		5E1934F6219A08A600E16AEB /* RTMessaging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTMessaging.h; sourceTree = "<group>"; };
+		5E1934F7219A08A600E16AEB /* CommandObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandObject.h; sourceTree = "<group>"; };
+		5E1934F8219A08A600E16AEB /* WeborbClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeborbClient.h; sourceTree = "<group>"; };
+		5E1934F9219A08A600E16AEB /* Presence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Presence.h; sourceTree = "<group>"; };
+		5E1934FA219A08A600E16AEB /* ClassCastException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassCastException.h; sourceTree = "<group>"; };
+		5E1934FB219A08A600E16AEB /* AuthorizationException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthorizationException.h; sourceTree = "<group>"; };
+		5E1934FC219A08A600E16AEB /* IServiceHandlerProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IServiceHandlerProvider.h; sourceTree = "<group>"; };
+		5E1934FD219A08A600E16AEB /* BooleanReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BooleanReader.h; sourceTree = "<group>"; };
+		5E1934FE219A08A600E16AEB /* IProtocolFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IProtocolFormatter.h; sourceTree = "<group>"; };
+		5E1934FF219A08A600E16AEB /* IEventListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IEventListener.h; sourceTree = "<group>"; };
+		5E193500219A08A600E16AEB /* GeoFenceMonitoring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoFenceMonitoring.h; sourceTree = "<group>"; };
+		5E193501219A08A600E16AEB /* LogBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogBuffer.h; sourceTree = "<group>"; };
+		5E193502219A08A600E16AEB /* IPersistenceStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPersistenceStore.h; sourceTree = "<group>"; };
+		5E193503219A08A600E16AEB /* ISerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISerializer.h; sourceTree = "<group>"; };
+		5E193504219A08A600E16AEB /* GeoCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoCategory.h; sourceTree = "<group>"; };
+		5E193505219A08A600E16AEB /* DateType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateType.h; sourceTree = "<group>"; };
+		5E193506219A08A600E16AEB /* UserDefaultsHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDefaultsHelper.h; sourceTree = "<group>"; };
+		5E193507219A08A600E16AEB /* ObjectProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectProperty.h; sourceTree = "<group>"; };
+		5E193508219A08A600E16AEB /* RTMProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTMProtocol.h; sourceTree = "<group>"; };
+		5E193509219A08A600E16AEB /* KeychainDataStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeychainDataStore.h; sourceTree = "<group>"; };
+		5E19350A219A08A600E16AEB /* HashMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HashMap.h; sourceTree = "<group>"; };
+		5E19350B219A08A600E16AEB /* ISharedObjectMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISharedObjectMessage.h; sourceTree = "<group>"; };
+		5E19350C219A08A600E16AEB /* QueryOptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QueryOptions.h; sourceTree = "<group>"; };
+		5E19350D219A08A600E16AEB /* V3DateReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = V3DateReader.h; sourceTree = "<group>"; };
+		5E19350E219A08A600E16AEB /* Logging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Logging.h; sourceTree = "<group>"; };
+		5E19350F219A08A600E16AEB /* BoundPropertyBagWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoundPropertyBagWriter.h; sourceTree = "<group>"; };
+		5E193510219A08A600E16AEB /* FileService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileService.h; sourceTree = "<group>"; };
+		5E193511219A08A600E16AEB /* Call.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Call.h; sourceTree = "<group>"; };
+		5E193512219A08A600E16AEB /* RTSharedObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTSharedObject.h; sourceTree = "<group>"; };
+		5E193513219A08A600E16AEB /* MetaData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MetaData.h; sourceTree = "<group>"; };
+		5E193514219A08A600E16AEB /* RTMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTMethod.h; sourceTree = "<group>"; };
+		5E193515219A08A600E16AEB /* SharedObjectEventType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SharedObjectEventType.h; sourceTree = "<group>"; };
+		5E193516219A08A600E16AEB /* StringWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringWriter.h; sourceTree = "<group>"; };
+		5E193517219A08A600E16AEB /* Aggregate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Aggregate.h; sourceTree = "<group>"; };
+		5E193518219A08A600E16AEB /* LoadRelationsQueryBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadRelationsQueryBuilder.h; sourceTree = "<group>"; };
+		5E193519219A08A600E16AEB /* IPendingServiceCall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPendingServiceCall.h; sourceTree = "<group>"; };
+		5E19351A219A08A600E16AEB /* BackendlessPushHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackendlessPushHelper.h; sourceTree = "<group>"; };
+		5E19351B219A08A600E16AEB /* IStreamPacket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IStreamPacket.h; sourceTree = "<group>"; };
+		5E19351C219A08A600E16AEB /* AdapterFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdapterFactory.h; sourceTree = "<group>"; };
+		5E19351D219A08A600E16AEB /* MessageWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageWriter.h; sourceTree = "<group>"; };
+		5E19351E219A08A600E16AEB /* Invoke.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Invoke.h; sourceTree = "<group>"; };
+		5E19351F219A08A600E16AEB /* HttpEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpEngine.h; sourceTree = "<group>"; };
+		5E193520219A08A600E16AEB /* NamedObjectReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NamedObjectReader.h; sourceTree = "<group>"; };
+		5E193521219A08A600E16AEB /* V3ObjectSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = V3ObjectSerializer.h; sourceTree = "<group>"; };
+		5E193522219A08A600E16AEB /* ErrMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ErrMessage.h; sourceTree = "<group>"; };
+		5E193523219A08A600E16AEB /* IEventDispatcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IEventDispatcher.h; sourceTree = "<group>"; };
+		5E193524219A08A600E16AEB /* RTFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTFactory.h; sourceTree = "<group>"; };
+		5E193525219A08A600E16AEB /* UserProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserProperty.h; sourceTree = "<group>"; };
+		5E193526219A08A600E16AEB /* Datatypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Datatypes.h; sourceTree = "<group>"; };
+		5E193527219A08A600E16AEB /* SharedObjectEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SharedObjectEvent.h; sourceTree = "<group>"; };
+		5E193528219A08A600E16AEB /* BinaryStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryStream.h; sourceTree = "<group>"; };
+		5E193529219A08A600E16AEB /* PagedQueryBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PagedQueryBuilder.h; sourceTree = "<group>"; };
+		5E19352A219A08A600E16AEB /* BeaconTracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeaconTracker.h; sourceTree = "<group>"; };
+		5E19352B219A08A600E16AEB /* IAtomicCounters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAtomicCounters.h; sourceTree = "<group>"; };
+		5E19352C219A08A600E16AEB /* AbstractUnreferenceableTypeWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractUnreferenceableTypeWriter.h; sourceTree = "<group>"; };
+		5E19352D219A08A600E16AEB /* BackendlessCacheProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackendlessCacheProtocol.h; sourceTree = "<group>"; };
+		5E19352E219A08A600E16AEB /* SharedObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SharedObject.h; sourceTree = "<group>"; };
+		5E19352F219A08A600E16AEB /* V3ArrayReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = V3ArrayReader.h; sourceTree = "<group>"; };
+		5E193530219A08A600E16AEB /* AttributeStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AttributeStore.h; sourceTree = "<group>"; };
+		5E193531219A08A600E16AEB /* V3Reader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = V3Reader.h; sourceTree = "<group>"; };
+		5E193532219A08A600E16AEB /* CrowdNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrowdNode.h; sourceTree = "<group>"; };
+		5E193533219A08A600E16AEB /* ICacheService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICacheService.h; sourceTree = "<group>"; };
+		5E193534219A08A600E16AEB /* AbstractQuery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractQuery.h; sourceTree = "<group>"; };
+		5E193535219A08A600E16AEB /* DateWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateWriter.h; sourceTree = "<group>"; };
+		5E193536219A08A600E16AEB /* ObjectSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectSerializer.h; sourceTree = "<group>"; };
+		5E193537219A08A600E16AEB /* CacheFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CacheFactory.h; sourceTree = "<group>"; };
+		5E193538219A08A600E16AEB /* DeviceRegistration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceRegistration.h; sourceTree = "<group>"; };
+		5E193539219A08A600E16AEB /* IDeserializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDeserializer.h; sourceTree = "<group>"; };
+		5E19353A219A08A600E16AEB /* BooleanType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BooleanType.h; sourceTree = "<group>"; };
+		5E19353B219A08A600E16AEB /* V3ObjectReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = V3ObjectReader.h; sourceTree = "<group>"; };
+		5E19353C219A08A600E16AEB /* BackendlessSimpleQuery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackendlessSimpleQuery.h; sourceTree = "<group>"; };
+		5E19353D219A08A600E16AEB /* BackendlessCacheKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackendlessCacheKey.h; sourceTree = "<group>"; };
+		5E19353E219A08A600E16AEB /* GeoService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoService.h; sourceTree = "<group>"; };
+		5E19353F219A08A600E16AEB /* CustomService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomService.h; sourceTree = "<group>"; };
+		5E193540219A08A600E16AEB /* IEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IEvent.h; sourceTree = "<group>"; };
+		5E193541219A08A600E16AEB /* BinaryCodec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryCodec.h; sourceTree = "<group>"; };
+		5E193542219A08A600E16AEB /* WebORBSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebORBSerializer.h; sourceTree = "<group>"; };
+		5E193543219A08A600E16AEB /* V3VectorReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = V3VectorReader.h; sourceTree = "<group>"; };
+		5E193544219A08A600E16AEB /* FlashorbBinaryWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlashorbBinaryWriter.h; sourceTree = "<group>"; };
+		5E193545219A08A600E16AEB /* GeoCluster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoCluster.h; sourceTree = "<group>"; };
+		5E193546219A08A600E16AEB /* RTListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTListener.h; sourceTree = "<group>"; };
+		5E193547219A08A600E16AEB /* PropertyBagWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PropertyBagWriter.h; sourceTree = "<group>"; };
+		5E193548219A08A600E16AEB /* Packet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Packet.h; sourceTree = "<group>"; };
+		5E193549219A08A600E16AEB /* FilePermission.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilePermission.h; sourceTree = "<group>"; };
+		5E19354A219A08A600E16AEB /* ISharedObjectEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISharedObjectEvent.h; sourceTree = "<group>"; };
+		5E19354B219A08A600E16AEB /* AsyncMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AsyncMessage.h; sourceTree = "<group>"; };
+		5E19354C219A08A600E16AEB /* IAttributeStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAttributeStore.h; sourceTree = "<group>"; };
+		5E19354D219A08A600E16AEB /* IntegerReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntegerReader.h; sourceTree = "<group>"; };
+		5E19354E219A08A600E16AEB /* IObjectSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IObjectSerializer.h; sourceTree = "<group>"; };
+		5E19354F219A08A600E16AEB /* AtomicCounters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AtomicCounters.h; sourceTree = "<group>"; };
+		5E193550219A08A600E16AEB /* V3ReferenceCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = V3ReferenceCache.h; sourceTree = "<group>"; };
+		5E193551219A08A600E16AEB /* IPendingServiceCallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPendingServiceCallback.h; sourceTree = "<group>"; };
+		5E193552219A08A600E16AEB /* IPresenceListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPresenceListener.h; sourceTree = "<group>"; };
+		5E193553219A08A600E16AEB /* BackendlessGeoQuery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackendlessGeoQuery.h; sourceTree = "<group>"; };
+		5E193554219A08A600E16AEB /* InvokeObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InvokeObject.h; sourceTree = "<group>"; };
+		5E193555219A08A600E16AEB /* Subscription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subscription.h; sourceTree = "<group>"; };
+		5E193556219A08A600E16AEB /* UICKeyChainStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UICKeyChainStore.h; sourceTree = "<group>"; };
+		5E193557219A08A600E16AEB /* DataQueryBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataQueryBuilder.h; sourceTree = "<group>"; };
+		5E193558219A08A600E16AEB /* ClientCallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClientCallback.h; sourceTree = "<group>"; };
+		5E193559219A08A600E16AEB /* RequestParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestParser.h; sourceTree = "<group>"; };
+		5E19355A219A08A600E16AEB /* SharedObjectService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SharedObjectService.h; sourceTree = "<group>"; };
+		5E19355B219A08A600E16AEB /* BackendlessEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackendlessEntity.h; sourceTree = "<group>"; };
+		5E19355C219A08A600E16AEB /* NumberWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberWriter.h; sourceTree = "<group>"; };
+		5E19355D219A08A600E16AEB /* Request.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
+		5E19355E219A08A600E16AEB /* NumberObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberObject.h; sourceTree = "<group>"; };
+		5E19355F219A08A600E16AEB /* MultiDimArrayWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiDimArrayWriter.h; sourceTree = "<group>"; };
+		5E193560219A08A600E16AEB /* ISharedObjectBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISharedObjectBase.h; sourceTree = "<group>"; };
+		5E193561219A08A600E16AEB /* IStreamDispatcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IStreamDispatcher.h; sourceTree = "<group>"; };
+		5E193562219A08A600E16AEB /* ReferenceCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReferenceCache.h; sourceTree = "<group>"; };
+		5E193563219A08A600E16AEB /* IServiceObjectFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IServiceObjectFactory.h; sourceTree = "<group>"; };
+		5E193564219A08A600E16AEB /* ClassDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassDefinition.h; sourceTree = "<group>"; };
+		5E193565219A08A600E16AEB /* BackendlessCachePolicy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackendlessCachePolicy.h; sourceTree = "<group>"; };
+		5E193566219A08A600E16AEB /* IPersistable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPersistable.h; sourceTree = "<group>"; };
+		5E193567219A08A600E16AEB /* MapDrivenDataStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapDrivenDataStore.h; sourceTree = "<group>"; };
+		5E193568219A08A600E16AEB /* ICacheableAdaptingType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICacheableAdaptingType.h; sourceTree = "<group>"; };
+		5E193569219A08A600E16AEB /* StringReferenceWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringReferenceWriter.h; sourceTree = "<group>"; };
+		5E19356A219A08A600E16AEB /* AtomicCountersFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AtomicCountersFactory.h; sourceTree = "<group>"; };
+		5E19356B219A08A600E16AEB /* NotifyEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotifyEvent.h; sourceTree = "<group>"; };
+		5E19356C219A08A600E16AEB /* BackendlessUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackendlessUser.h; sourceTree = "<group>"; };
+		5E19356D219A08A600E16AEB /* ObjectFactories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectFactories.h; sourceTree = "<group>"; };
+		5E19356E219A08A600E16AEB /* Logger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
+		5E19356F219A08A600E16AEB /* BoundPropertyBagReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoundPropertyBagReader.h; sourceTree = "<group>"; };
+		5E193570219A08A600E16AEB /* DefaultAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefaultAdapter.h; sourceTree = "<group>"; };
+		5E193571219A08A600E16AEB /* StringType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringType.h; sourceTree = "<group>"; };
+		5E193572219A08A600E16AEB /* NullType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NullType.h; sourceTree = "<group>"; };
+		5E193573219A08A600E16AEB /* AmfFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmfFormatter.h; sourceTree = "<group>"; };
+		5E193574219A08A600E16AEB /* WebORBDeserializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebORBDeserializer.h; sourceTree = "<group>"; };
+		5E193575219A08A600E16AEB /* UserInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		5E193576219A08A600E16AEB /* V3ByteArrayReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = V3ByteArrayReader.h; sourceTree = "<group>"; };
+		5E193577219A08A600E16AEB /* AckMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AckMessage.h; sourceTree = "<group>"; };
+		5E193578219A08A600E16AEB /* ISharedObjectHandlerProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISharedObjectHandlerProvider.h; sourceTree = "<group>"; };
+		5E193579219A08A600E16AEB /* MessageStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageStatus.h; sourceTree = "<group>"; };
+		5E19357A219A08A600E16AEB /* ArrayWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayWriter.h; sourceTree = "<group>"; };
+		5E19357B219A08A600E16AEB /* CustomServiceAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomServiceAdapter.h; sourceTree = "<group>"; };
+		5E19357C219A08A600E16AEB /* BackendlessDataQuery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackendlessDataQuery.h; sourceTree = "<group>"; };
+		5E19357D219A08A600E16AEB /* Responder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Responder.h; sourceTree = "<group>"; };
+		5E19357E219A08A600E16AEB /* SharedObjectMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SharedObjectMessage.h; sourceTree = "<group>"; };
+		5E19357F219A08A600E16AEB /* ICallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICallback.h; sourceTree = "<group>"; };
+		5E193580219A08A600E16AEB /* ObjectWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectWriter.h; sourceTree = "<group>"; };
+		5E193581219A08A600E16AEB /* RTMPConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTMPConstants.h; sourceTree = "<group>"; };
+		5E193582219A08A600E16AEB /* ITypeReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITypeReader.h; sourceTree = "<group>"; };
+		5E193583219A08A600E16AEB /* UserService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserService.h; sourceTree = "<group>"; };
+		5E193584219A08A600E16AEB /* DeliveryOptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeliveryOptions.h; sourceTree = "<group>"; };
+		5E193585219A08A600E16AEB /* PersistenceService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersistenceService.h; sourceTree = "<group>"; };
+		5E193586219A08A600E16AEB /* IAdaptingType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAdaptingType.h; sourceTree = "<group>"; };
+		5E193587219A08A600E16AEB /* UndefinedType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UndefinedType.h; sourceTree = "<group>"; };
+		5E193588219A08A600E16AEB /* AnonymousObjectReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnonymousObjectReader.h; sourceTree = "<group>"; };
+		5E193589219A08A600E16AEB /* BackendlessCacheData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackendlessCacheData.h; sourceTree = "<group>"; };
+		5E19358A219A08A600E16AEB /* UndefinedTypeReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UndefinedTypeReader.h; sourceTree = "<group>"; };
+		5E19358B219A08A600E16AEB /* DataPermission.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataPermission.h; sourceTree = "<group>"; };
+		5E19358C219A08A600E16AEB /* BackendlessUserAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackendlessUserAdapter.h; sourceTree = "<group>"; };
+		5E19358D219A08A600E16AEB /* ClientSharedObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClientSharedObject.h; sourceTree = "<group>"; };
+		5E19358E219A08A600E16AEB /* Ping.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ping.h; sourceTree = "<group>"; };
+		5E19358F219A08A600E16AEB /* ParseContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParseContext.h; sourceTree = "<group>"; };
+		5E193590219A08A600E16AEB /* AMFSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMFSerializer.h; sourceTree = "<group>"; };
+		5E193591219A08A600E16AEB /* BooleanWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BooleanWriter.h; sourceTree = "<group>"; };
+		5E193592219A08A600E16AEB /* LongUTFStringReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongUTFStringReader.h; sourceTree = "<group>"; };
+		5E193593219A08A600E16AEB /* VideoData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoData.h; sourceTree = "<group>"; };
+		5E193594219A08A600E16AEB /* BaseRTMPProtocolDecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseRTMPProtocolDecoder.h; sourceTree = "<group>"; };
+		5E193595219A08A600E16AEB /* ArrayReferenceWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayReferenceWriter.h; sourceTree = "<group>"; };
+		5E193596219A08A600E16AEB /* BeaconsInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeaconsInfo.h; sourceTree = "<group>"; };
+		5E193597219A08A600E16AEB /* BEFileInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEFileInfo.h; sourceTree = "<group>"; };
+		5E193598219A08A600E16AEB /* V3Message.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = V3Message.h; sourceTree = "<group>"; };
+		5E193599219A08A600E16AEB /* AudioData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioData.h; sourceTree = "<group>"; };
+		5E19359A219A08A600E16AEB /* BodyHolderFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BodyHolderFactory.h; sourceTree = "<group>"; };
+		5E19359B219A08A600E16AEB /* AdaptResponder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdaptResponder.h; sourceTree = "<group>"; };
+		5E19359C219A08A600E16AEB /* ReaderReferenceCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReaderReferenceCache.h; sourceTree = "<group>"; };
+		5E19359D219A08A600E16AEB /* NullWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NullWriter.h; sourceTree = "<group>"; };
+		5E19359E219A08A600E16AEB /* CommandMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandMessage.h; sourceTree = "<group>"; };
+		5E19359F219A08A600E16AEB /* MemoryTicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoryTicker.h; sourceTree = "<group>"; };
+		5E1935A0219A08A600E16AEB /* ConcreteObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteObject.h; sourceTree = "<group>"; };
+		5E909552219B311E00C129F8 /* BackendlessSocialLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BackendlessSocialLoginView.xib; sourceTree = "<group>"; };
+		5E909554219B312700C129F8 /* BackendlessSocialLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendlessSocialLoginView.swift; sourceTree = "<group>"; };
+		5E909556219B312E00C129F8 /* BackendlessSocialLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendlessSocialLoginViewController.swift; sourceTree = "<group>"; };
+		A2542AC9968E4B8F38BD2849 /* Pods-BackendlessUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackendlessUI.debug.xcconfig"; path = "Target Support Files/Pods-BackendlessUI/Pods-BackendlessUI.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E193435219A070700E16AEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31CD07A425FD26CDF54018A /* Pods_BackendlessUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FB95103CA83478E58CDB1F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2542AC9968E4B8F38BD2849 /* Pods-BackendlessUI.debug.xcconfig */,
+				421C2B7432C4B274450D76CC /* Pods-BackendlessUI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5E19342E219A070700E16AEB = {
+			isa = PBXGroup;
+			children = (
+				5E19349C219A08A600E16AEB /* include */,
+				5E19343A219A070700E16AEB /* BackendlessUI */,
+				5E193439219A070700E16AEB /* Products */,
+				1FB95103CA83478E58CDB1F0 /* Pods */,
+				FA7ADF42D02BF98264811319 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5E193439219A070700E16AEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E193438219A070700E16AEB /* BackendlessUI.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E19343A219A070700E16AEB /* BackendlessUI */ = {
+			isa = PBXGroup;
+			children = (
+				5E193457219A07D100E16AEB /* AdditionalMethods */,
+				5E193465219A07D100E16AEB /* Cells */,
+				5E193468219A07D100E16AEB /* ViewControllers */,
+				5E193459219A07D100E16AEB /* Views */,
+				5E193448219A07D100E16AEB /* Xib */,
+				5E19343B219A070700E16AEB /* BackendlessUI.h */,
+				5E19343C219A070700E16AEB /* Info.plist */,
+			);
+			path = BackendlessUI;
+			sourceTree = "<group>";
+		};
+		5E193448219A07D100E16AEB /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				5E193456219A07D100E16AEB /* BackendlessAddObjectPropertyView.xib */,
+				5E193451219A07D100E16AEB /* BackendlessAddObjectView.xib */,
+				5E19344D219A07D100E16AEB /* BackendlessAddRelationsView.xib */,
+				5E193452219A07D100E16AEB /* BackendlessLoginView.xib */,
+				5E193455219A07D100E16AEB /* BackendlessLogoutView.xib */,
+				5E19344E219A07D100E16AEB /* BackendlessObjectDetailsView.xib */,
+				5E193450219A07D100E16AEB /* BackendlessRelationsView.xib */,
+				5E193453219A07D100E16AEB /* BackendlessRestorePasswordView.xib */,
+				5E19344F219A07D100E16AEB /* BackendlessSignUpView.xib */,
+				5E909552219B311E00C129F8 /* BackendlessSocialLoginView.xib */,
+				5E193449219A07D100E16AEB /* BackendlessTableView.xib */,
+				5E19344A219A07D100E16AEB /* Cells */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		5E19344A219A07D100E16AEB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5E19344B219A07D100E16AEB /* UnrelatedObjectCell.xib */,
+				5E19344C219A07D100E16AEB /* ObjectDetailCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5E193457219A07D100E16AEB /* AdditionalMethods */ = {
+			isa = PBXGroup;
+			children = (
+				5E193458219A07D100E16AEB /* Extensions.swift */,
+			);
+			path = AdditionalMethods;
+			sourceTree = "<group>";
+		};
+		5E193459219A07D100E16AEB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5E193461219A07D100E16AEB /* BackendlessAddObjectPropertyView.swift */,
+				5E19345D219A07D100E16AEB /* BackendlessAddObjectView.swift */,
+				5E19345E219A07D100E16AEB /* BackendlessAddRelationsView.swift */,
+				5E193462219A07D100E16AEB /* BackendlessLoginView.swift */,
+				5E19345A219A07D100E16AEB /* BackendlessLogoutView.swift */,
+				5E193460219A07D100E16AEB /* BackendlessObjectDetailsView.swift */,
+				5E19345B219A07D100E16AEB /* BackendlessRelationsView.swift */,
+				5E193464219A07D100E16AEB /* BackendlessRestorePasswordView.swift */,
+				5E19345C219A07D100E16AEB /* BackendlessSignUpView.swift */,
+				5E909554219B312700C129F8 /* BackendlessSocialLoginView.swift */,
+				5E19345F219A07D100E16AEB /* BackendlessTableView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5E193465219A07D100E16AEB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5E193466219A07D100E16AEB /* ObjectDetailCell.swift */,
+				5E193467219A07D100E16AEB /* UnrelatedObjectCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5E193468219A07D100E16AEB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5E19346E219A07D100E16AEB /* AlertViewController.swift */,
+				5E19346B219A07D100E16AEB /* BackendlessAddObjectPropertyViewController.swift */,
+				5E193471219A07D100E16AEB /* BackendlessAddObjectViewController.swift */,
+				5E19346C219A07D100E16AEB /* BackendlessAddRelationsViewController.swift */,
+				5E19346D219A07D100E16AEB /* BackendlessLoginViewController.swift */,
+				5E19346A219A07D100E16AEB /* BackendlessLogoutViewController.swift */,
+				5E19346F219A07D100E16AEB /* BackendlessObjectDetailsViewController.swift */,
+				5E193470219A07D100E16AEB /* BackendlessRelationsViewController.swift */,
+				5E193474219A07D100E16AEB /* BackendlessRestorePasswordViewController.swift */,
+				5E193473219A07D100E16AEB /* BackendlessSignUpViewController.swift */,
+				5E909556219B312E00C129F8 /* BackendlessSocialLoginViewController.swift */,
+				5E193469219A07D100E16AEB /* BackendlessTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5E19349C219A08A600E16AEB /* include */ = {
+			isa = PBXGroup;
+			children = (
+				5E19349D219A08A600E16AEB /* BulkEvent.h */,
+				5E19349E219A08A600E16AEB /* IArgumentObjectFactory.h */,
+				5E19349F219A08A600E16AEB /* PublishOptions.h */,
+				5E1934A0219A08A600E16AEB /* BackendlessCache.h */,
+				5E1934A1219A08A600E16AEB /* BaseRTMPProtocolEncoder.h */,
+				5E1934A2219A08A600E16AEB /* IDataStore.h */,
+				5E1934A3219A08A600E16AEB /* V3StringReader.h */,
+				5E1934A4219A08A600E16AEB /* AMFBodyWriter.h */,
+				5E1934A5219A08A600E16AEB /* GeoMath.h */,
+				5E1934A6219A08A600E16AEB /* ObjectReferenceWriter.h */,
+				5E1934A7219A08A600E16AEB /* FlashorbBinaryReader.h */,
+				5E1934A8219A08A600E16AEB /* IRTMProtocol.h */,
+				5E1934A9219A08A600E16AEB /* ProtectedBackendlessGeoQuery.h */,
+				5E1934AA219A08A600E16AEB /* WeborbSharedObject.h */,
+				5E1934AB219A08A600E16AEB /* RTMethodRequest.h */,
+				5E1934AC219A08A600E16AEB /* IResponseAdapter.h */,
+				5E1934AD219A08A600E16AEB /* GeoPoint.h */,
+				5E1934AE219A08A600E16AEB /* Backendless.h */,
+				5E1934AF219A08A600E16AEB /* NumberReader.h */,
+				5E1934B0219A08A600E16AEB /* BodyHolderWriter.h */,
+				5E1934B1219A08A600E16AEB /* ReaderUtils.h */,
+				5E1934B2219A08A600E16AEB /* Backendless-Bridging-Header.h */,
+				5E1934B3219A08A600E16AEB /* IVideoStreamCodec.h */,
+				5E1934B4219A08A600E16AEB /* PointerReader.h */,
+				5E1934B5219A08A600E16AEB /* Engine.h */,
+				5E1934B6219A08A600E16AEB /* MapAdapter.h */,
+				5E1934B7219A08A600E16AEB /* Channel.h */,
+				5E1934B8219A08A600E16AEB /* BodyHolder.h */,
+				5E1934B9219A08A600E16AEB /* GeoFence.h */,
+				5E1934BA219A08A600E16AEB /* AMFMessageWriter.h */,
+				5E1934BB219A08A600E16AEB /* DEBUG.h */,
+				5E1934BC219A08A600E16AEB /* BackendlessFile.h */,
+				5E1934BD219A08A600E16AEB /* NamedObject.h */,
+				5E1934BE219A08A600E16AEB /* FlexMessage.h */,
+				5E1934BF219A08A600E16AEB /* IAudioStreamCodec.h */,
+				5E1934C0219A08A600E16AEB /* PendingCall.h */,
+				5E1934C1219A08A600E16AEB /* EventHandler.h */,
+				5E1934C2219A08A600E16AEB /* BeaconMonitoring.h */,
+				5E1934C3219A08A600E16AEB /* QueryOptionsBuilder.h */,
+				5E1934C4219A08A600E16AEB /* MHeader.h */,
+				5E1934C5219A08A600E16AEB /* SharedObjectChanges.h */,
+				5E1934C6219A08A600E16AEB /* AnonymousObject.h */,
+				5E1934C7219A08A600E16AEB /* AbstractProperty.h */,
+				5E1934C8219A08A600E16AEB /* ByteArrayType.h */,
+				5E1934C9219A08A600E16AEB /* ORBConstants.h */,
+				5E1934CA219A08A600E16AEB /* Header.h */,
+				5E1934CB219A08A600E16AEB /* LocationTracker.h */,
+				5E1934CC219A08A600E16AEB /* IRTMPEvent.h */,
+				5E1934CD219A08A600E16AEB /* AMFHeaderWriter.h */,
+				5E1934CE219A08A600E16AEB /* ISharedObjectListener.h */,
+				5E1934CF219A08A600E16AEB /* BodyParts.h */,
+				5E1934D0219A08A600E16AEB /* RTHelper.h */,
+				5E1934D1219A08A600E16AEB /* DeviceRegistrationAdapter.h */,
+				5E1934D2219A08A600E16AEB /* BackendlessBeacon.h */,
+				5E1934D3219A08A600E16AEB /* RTClient.h */,
+				5E1934D4219A08A600E16AEB /* MessagingService.h */,
+				5E1934D5219A08A600E16AEB /* AmfV3Formatter.h */,
+				5E1934D6219A08A600E16AEB /* ReqMessage.h */,
+				5E1934D7219A08A600E16AEB /* PublishMessageInfoWrapper.h */,
+				5E1934D8219A08A600E16AEB /* DateReader.h */,
+				5E1934D9219A08A600E16AEB /* JSONHelper.h */,
+				5E1934DA219A08A600E16AEB /* Types.h */,
+				5E1934DB219A08A600E16AEB /* PublishMessageInfo.h */,
+				5E1934DC219A08A600E16AEB /* NotAReader.h */,
+				5E1934DD219A08A600E16AEB /* RTService.h */,
+				5E1934DE219A08A600E16AEB /* ICastingAttributeStore.h */,
+				5E1934DF219A08A600E16AEB /* VoidResponseWrapper.h */,
+				5E1934E0219A08A600E16AEB /* ITypeWriter.h */,
+				5E1934E1219A08A600E16AEB /* UTFStringReader.h */,
+				5E1934E2219A08A600E16AEB /* IClientSharedObjectDelegate.h */,
+				5E1934E3219A08A600E16AEB /* DataStoreFactory.h */,
+				5E1934E4219A08A600E16AEB /* IClientSharedObject.h */,
+				5E1934E5219A08A600E16AEB /* UserStatusObject.h */,
+				5E1934E6219A08A600E16AEB /* Body.h */,
+				5E1934E7219A08A600E16AEB /* RTSubscription.h */,
+				5E1934E8219A08A600E16AEB /* ArrayType.h */,
+				5E1934E9219A08A600E16AEB /* IServiceCall.h */,
+				5E1934EA219A08A600E16AEB /* RTMPClient.h */,
+				5E1934EB219A08A600E16AEB /* Invoker.h */,
+				5E1934EC219A08A600E16AEB /* ArrayReader.h */,
+				5E1934ED219A08A600E16AEB /* ServerCallback.h */,
+				5E1934EE219A08A600E16AEB /* CacheService.h */,
+				5E1934EF219A08A600E16AEB /* NullHelper.h */,
+				5E1934F0219A08A600E16AEB /* AbstractReferenceableTypeWriter.h */,
+				5E1934F1219A08A600E16AEB /* Events.h */,
+				5E1934F2219A08A600E16AEB /* NullReader.h */,
+				5E1934F3219A08A600E16AEB /* BaseEvent.h */,
+				5E1934F4219A08A600E16AEB /* ReconnectAttemptObject.h */,
+				5E1934F5219A08A600E16AEB /* EventType.h */,
+				5E1934F6219A08A600E16AEB /* RTMessaging.h */,
+				5E1934F7219A08A600E16AEB /* CommandObject.h */,
+				5E1934F8219A08A600E16AEB /* WeborbClient.h */,
+				5E1934F9219A08A600E16AEB /* Presence.h */,
+				5E1934FA219A08A600E16AEB /* ClassCastException.h */,
+				5E1934FB219A08A600E16AEB /* AuthorizationException.h */,
+				5E1934FC219A08A600E16AEB /* IServiceHandlerProvider.h */,
+				5E1934FD219A08A600E16AEB /* BooleanReader.h */,
+				5E1934FE219A08A600E16AEB /* IProtocolFormatter.h */,
+				5E1934FF219A08A600E16AEB /* IEventListener.h */,
+				5E193500219A08A600E16AEB /* GeoFenceMonitoring.h */,
+				5E193501219A08A600E16AEB /* LogBuffer.h */,
+				5E193502219A08A600E16AEB /* IPersistenceStore.h */,
+				5E193503219A08A600E16AEB /* ISerializer.h */,
+				5E193504219A08A600E16AEB /* GeoCategory.h */,
+				5E193505219A08A600E16AEB /* DateType.h */,
+				5E193506219A08A600E16AEB /* UserDefaultsHelper.h */,
+				5E193507219A08A600E16AEB /* ObjectProperty.h */,
+				5E193508219A08A600E16AEB /* RTMProtocol.h */,
+				5E193509219A08A600E16AEB /* KeychainDataStore.h */,
+				5E19350A219A08A600E16AEB /* HashMap.h */,
+				5E19350B219A08A600E16AEB /* ISharedObjectMessage.h */,
+				5E19350C219A08A600E16AEB /* QueryOptions.h */,
+				5E19350D219A08A600E16AEB /* V3DateReader.h */,
+				5E19350E219A08A600E16AEB /* Logging.h */,
+				5E19350F219A08A600E16AEB /* BoundPropertyBagWriter.h */,
+				5E193510219A08A600E16AEB /* FileService.h */,
+				5E193511219A08A600E16AEB /* Call.h */,
+				5E193512219A08A600E16AEB /* RTSharedObject.h */,
+				5E193513219A08A600E16AEB /* MetaData.h */,
+				5E193514219A08A600E16AEB /* RTMethod.h */,
+				5E193515219A08A600E16AEB /* SharedObjectEventType.h */,
+				5E193516219A08A600E16AEB /* StringWriter.h */,
+				5E193517219A08A600E16AEB /* Aggregate.h */,
+				5E193518219A08A600E16AEB /* LoadRelationsQueryBuilder.h */,
+				5E193519219A08A600E16AEB /* IPendingServiceCall.h */,
+				5E19351A219A08A600E16AEB /* BackendlessPushHelper.h */,
+				5E19351B219A08A600E16AEB /* IStreamPacket.h */,
+				5E19351C219A08A600E16AEB /* AdapterFactory.h */,
+				5E19351D219A08A600E16AEB /* MessageWriter.h */,
+				5E19351E219A08A600E16AEB /* Invoke.h */,
+				5E19351F219A08A600E16AEB /* HttpEngine.h */,
+				5E193520219A08A600E16AEB /* NamedObjectReader.h */,
+				5E193521219A08A600E16AEB /* V3ObjectSerializer.h */,
+				5E193522219A08A600E16AEB /* ErrMessage.h */,
+				5E193523219A08A600E16AEB /* IEventDispatcher.h */,
+				5E193524219A08A600E16AEB /* RTFactory.h */,
+				5E193525219A08A600E16AEB /* UserProperty.h */,
+				5E193526219A08A600E16AEB /* Datatypes.h */,
+				5E193527219A08A600E16AEB /* SharedObjectEvent.h */,
+				5E193528219A08A600E16AEB /* BinaryStream.h */,
+				5E193529219A08A600E16AEB /* PagedQueryBuilder.h */,
+				5E19352A219A08A600E16AEB /* BeaconTracker.h */,
+				5E19352B219A08A600E16AEB /* IAtomicCounters.h */,
+				5E19352C219A08A600E16AEB /* AbstractUnreferenceableTypeWriter.h */,
+				5E19352D219A08A600E16AEB /* BackendlessCacheProtocol.h */,
+				5E19352E219A08A600E16AEB /* SharedObject.h */,
+				5E19352F219A08A600E16AEB /* V3ArrayReader.h */,
+				5E193530219A08A600E16AEB /* AttributeStore.h */,
+				5E193531219A08A600E16AEB /* V3Reader.h */,
+				5E193532219A08A600E16AEB /* CrowdNode.h */,
+				5E193533219A08A600E16AEB /* ICacheService.h */,
+				5E193534219A08A600E16AEB /* AbstractQuery.h */,
+				5E193535219A08A600E16AEB /* DateWriter.h */,
+				5E193536219A08A600E16AEB /* ObjectSerializer.h */,
+				5E193537219A08A600E16AEB /* CacheFactory.h */,
+				5E193538219A08A600E16AEB /* DeviceRegistration.h */,
+				5E193539219A08A600E16AEB /* IDeserializer.h */,
+				5E19353A219A08A600E16AEB /* BooleanType.h */,
+				5E19353B219A08A600E16AEB /* V3ObjectReader.h */,
+				5E19353C219A08A600E16AEB /* BackendlessSimpleQuery.h */,
+				5E19353D219A08A600E16AEB /* BackendlessCacheKey.h */,
+				5E19353E219A08A600E16AEB /* GeoService.h */,
+				5E19353F219A08A600E16AEB /* CustomService.h */,
+				5E193540219A08A600E16AEB /* IEvent.h */,
+				5E193541219A08A600E16AEB /* BinaryCodec.h */,
+				5E193542219A08A600E16AEB /* WebORBSerializer.h */,
+				5E193543219A08A600E16AEB /* V3VectorReader.h */,
+				5E193544219A08A600E16AEB /* FlashorbBinaryWriter.h */,
+				5E193545219A08A600E16AEB /* GeoCluster.h */,
+				5E193546219A08A600E16AEB /* RTListener.h */,
+				5E193547219A08A600E16AEB /* PropertyBagWriter.h */,
+				5E193548219A08A600E16AEB /* Packet.h */,
+				5E193549219A08A600E16AEB /* FilePermission.h */,
+				5E19354A219A08A600E16AEB /* ISharedObjectEvent.h */,
+				5E19354B219A08A600E16AEB /* AsyncMessage.h */,
+				5E19354C219A08A600E16AEB /* IAttributeStore.h */,
+				5E19354D219A08A600E16AEB /* IntegerReader.h */,
+				5E19354E219A08A600E16AEB /* IObjectSerializer.h */,
+				5E19354F219A08A600E16AEB /* AtomicCounters.h */,
+				5E193550219A08A600E16AEB /* V3ReferenceCache.h */,
+				5E193551219A08A600E16AEB /* IPendingServiceCallback.h */,
+				5E193552219A08A600E16AEB /* IPresenceListener.h */,
+				5E193553219A08A600E16AEB /* BackendlessGeoQuery.h */,
+				5E193554219A08A600E16AEB /* InvokeObject.h */,
+				5E193555219A08A600E16AEB /* Subscription.h */,
+				5E193556219A08A600E16AEB /* UICKeyChainStore.h */,
+				5E193557219A08A600E16AEB /* DataQueryBuilder.h */,
+				5E193558219A08A600E16AEB /* ClientCallback.h */,
+				5E193559219A08A600E16AEB /* RequestParser.h */,
+				5E19355A219A08A600E16AEB /* SharedObjectService.h */,
+				5E19355B219A08A600E16AEB /* BackendlessEntity.h */,
+				5E19355C219A08A600E16AEB /* NumberWriter.h */,
+				5E19355D219A08A600E16AEB /* Request.h */,
+				5E19355E219A08A600E16AEB /* NumberObject.h */,
+				5E19355F219A08A600E16AEB /* MultiDimArrayWriter.h */,
+				5E193560219A08A600E16AEB /* ISharedObjectBase.h */,
+				5E193561219A08A600E16AEB /* IStreamDispatcher.h */,
+				5E193562219A08A600E16AEB /* ReferenceCache.h */,
+				5E193563219A08A600E16AEB /* IServiceObjectFactory.h */,
+				5E193564219A08A600E16AEB /* ClassDefinition.h */,
+				5E193565219A08A600E16AEB /* BackendlessCachePolicy.h */,
+				5E193566219A08A600E16AEB /* IPersistable.h */,
+				5E193567219A08A600E16AEB /* MapDrivenDataStore.h */,
+				5E193568219A08A600E16AEB /* ICacheableAdaptingType.h */,
+				5E193569219A08A600E16AEB /* StringReferenceWriter.h */,
+				5E19356A219A08A600E16AEB /* AtomicCountersFactory.h */,
+				5E19356B219A08A600E16AEB /* NotifyEvent.h */,
+				5E19356C219A08A600E16AEB /* BackendlessUser.h */,
+				5E19356D219A08A600E16AEB /* ObjectFactories.h */,
+				5E19356E219A08A600E16AEB /* Logger.h */,
+				5E19356F219A08A600E16AEB /* BoundPropertyBagReader.h */,
+				5E193570219A08A600E16AEB /* DefaultAdapter.h */,
+				5E193571219A08A600E16AEB /* StringType.h */,
+				5E193572219A08A600E16AEB /* NullType.h */,
+				5E193573219A08A600E16AEB /* AmfFormatter.h */,
+				5E193574219A08A600E16AEB /* WebORBDeserializer.h */,
+				5E193575219A08A600E16AEB /* UserInfo.h */,
+				5E193576219A08A600E16AEB /* V3ByteArrayReader.h */,
+				5E193577219A08A600E16AEB /* AckMessage.h */,
+				5E193578219A08A600E16AEB /* ISharedObjectHandlerProvider.h */,
+				5E193579219A08A600E16AEB /* MessageStatus.h */,
+				5E19357A219A08A600E16AEB /* ArrayWriter.h */,
+				5E19357B219A08A600E16AEB /* CustomServiceAdapter.h */,
+				5E19357C219A08A600E16AEB /* BackendlessDataQuery.h */,
+				5E19357D219A08A600E16AEB /* Responder.h */,
+				5E19357E219A08A600E16AEB /* SharedObjectMessage.h */,
+				5E19357F219A08A600E16AEB /* ICallback.h */,
+				5E193580219A08A600E16AEB /* ObjectWriter.h */,
+				5E193581219A08A600E16AEB /* RTMPConstants.h */,
+				5E193582219A08A600E16AEB /* ITypeReader.h */,
+				5E193583219A08A600E16AEB /* UserService.h */,
+				5E193584219A08A600E16AEB /* DeliveryOptions.h */,
+				5E193585219A08A600E16AEB /* PersistenceService.h */,
+				5E193586219A08A600E16AEB /* IAdaptingType.h */,
+				5E193587219A08A600E16AEB /* UndefinedType.h */,
+				5E193588219A08A600E16AEB /* AnonymousObjectReader.h */,
+				5E193589219A08A600E16AEB /* BackendlessCacheData.h */,
+				5E19358A219A08A600E16AEB /* UndefinedTypeReader.h */,
+				5E19358B219A08A600E16AEB /* DataPermission.h */,
+				5E19358C219A08A600E16AEB /* BackendlessUserAdapter.h */,
+				5E19358D219A08A600E16AEB /* ClientSharedObject.h */,
+				5E19358E219A08A600E16AEB /* Ping.h */,
+				5E19358F219A08A600E16AEB /* ParseContext.h */,
+				5E193590219A08A600E16AEB /* AMFSerializer.h */,
+				5E193591219A08A600E16AEB /* BooleanWriter.h */,
+				5E193592219A08A600E16AEB /* LongUTFStringReader.h */,
+				5E193593219A08A600E16AEB /* VideoData.h */,
+				5E193594219A08A600E16AEB /* BaseRTMPProtocolDecoder.h */,
+				5E193595219A08A600E16AEB /* ArrayReferenceWriter.h */,
+				5E193596219A08A600E16AEB /* BeaconsInfo.h */,
+				5E193597219A08A600E16AEB /* BEFileInfo.h */,
+				5E193598219A08A600E16AEB /* V3Message.h */,
+				5E193599219A08A600E16AEB /* AudioData.h */,
+				5E19359A219A08A600E16AEB /* BodyHolderFactory.h */,
+				5E19359B219A08A600E16AEB /* AdaptResponder.h */,
+				5E19359C219A08A600E16AEB /* ReaderReferenceCache.h */,
+				5E19359D219A08A600E16AEB /* NullWriter.h */,
+				5E19359E219A08A600E16AEB /* CommandMessage.h */,
+				5E19359F219A08A600E16AEB /* MemoryTicker.h */,
+				5E1935A0219A08A600E16AEB /* ConcreteObject.h */,
+			);
+			name = include;
+			path = Pods/Backendless/SDK/ios/backendless/include;
+			sourceTree = "<group>";
+		};
+		FA7ADF42D02BF98264811319 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				087DF3ACAE409622FAC39E5D /* Pods_BackendlessUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5E193433219A070700E16AEB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E1936A5219A08E200E16AEB /* Backendless.h in Headers */,
+				5E19343D219A070700E16AEB /* BackendlessUI.h in Headers */,
+				5E1935A1219A08B500E16AEB /* BulkEvent.h in Headers */,
+				5E1935A2219A08B500E16AEB /* IArgumentObjectFactory.h in Headers */,
+				5E1935A3219A08B500E16AEB /* PublishOptions.h in Headers */,
+				5E1935A4219A08B500E16AEB /* BackendlessCache.h in Headers */,
+				5E1935A5219A08B500E16AEB /* BaseRTMPProtocolEncoder.h in Headers */,
+				5E1935A6219A08B500E16AEB /* IDataStore.h in Headers */,
+				5E1935A7219A08B500E16AEB /* V3StringReader.h in Headers */,
+				5E1935A8219A08B500E16AEB /* AMFBodyWriter.h in Headers */,
+				5E1935A9219A08B500E16AEB /* GeoMath.h in Headers */,
+				5E1935AA219A08B500E16AEB /* ObjectReferenceWriter.h in Headers */,
+				5E1935AB219A08B500E16AEB /* FlashorbBinaryReader.h in Headers */,
+				5E1935AC219A08B500E16AEB /* IRTMProtocol.h in Headers */,
+				5E1935AD219A08B500E16AEB /* ProtectedBackendlessGeoQuery.h in Headers */,
+				5E1935AE219A08B500E16AEB /* WeborbSharedObject.h in Headers */,
+				5E1935AF219A08B500E16AEB /* RTMethodRequest.h in Headers */,
+				5E1935B0219A08B500E16AEB /* IResponseAdapter.h in Headers */,
+				5E1935B1219A08B500E16AEB /* GeoPoint.h in Headers */,
+				5E1935B3219A08B500E16AEB /* NumberReader.h in Headers */,
+				5E1935B4219A08B500E16AEB /* BodyHolderWriter.h in Headers */,
+				5E1935B5219A08B500E16AEB /* ReaderUtils.h in Headers */,
+				5E1935B6219A08B500E16AEB /* Backendless-Bridging-Header.h in Headers */,
+				5E1935B7219A08B500E16AEB /* IVideoStreamCodec.h in Headers */,
+				5E1935B8219A08B500E16AEB /* PointerReader.h in Headers */,
+				5E1935B9219A08B500E16AEB /* Engine.h in Headers */,
+				5E1935BA219A08B500E16AEB /* MapAdapter.h in Headers */,
+				5E1935BB219A08B500E16AEB /* Channel.h in Headers */,
+				5E1935BC219A08B500E16AEB /* BodyHolder.h in Headers */,
+				5E1935BD219A08B500E16AEB /* GeoFence.h in Headers */,
+				5E1935BE219A08B500E16AEB /* AMFMessageWriter.h in Headers */,
+				5E1935BF219A08B500E16AEB /* DEBUG.h in Headers */,
+				5E1935C0219A08B500E16AEB /* BackendlessFile.h in Headers */,
+				5E1935C1219A08B500E16AEB /* NamedObject.h in Headers */,
+				5E1935C2219A08B500E16AEB /* FlexMessage.h in Headers */,
+				5E1935C3219A08B500E16AEB /* IAudioStreamCodec.h in Headers */,
+				5E1935C4219A08B500E16AEB /* PendingCall.h in Headers */,
+				5E1935C5219A08B500E16AEB /* EventHandler.h in Headers */,
+				5E1935C6219A08B500E16AEB /* BeaconMonitoring.h in Headers */,
+				5E1935C7219A08B500E16AEB /* QueryOptionsBuilder.h in Headers */,
+				5E1935C8219A08B500E16AEB /* MHeader.h in Headers */,
+				5E1935C9219A08B500E16AEB /* SharedObjectChanges.h in Headers */,
+				5E1935CA219A08B500E16AEB /* AnonymousObject.h in Headers */,
+				5E1935CB219A08B500E16AEB /* AbstractProperty.h in Headers */,
+				5E1935CC219A08B500E16AEB /* ByteArrayType.h in Headers */,
+				5E1935CD219A08B500E16AEB /* ORBConstants.h in Headers */,
+				5E1935CE219A08B500E16AEB /* Header.h in Headers */,
+				5E1935CF219A08B500E16AEB /* LocationTracker.h in Headers */,
+				5E1935D0219A08B500E16AEB /* IRTMPEvent.h in Headers */,
+				5E1935D1219A08B500E16AEB /* AMFHeaderWriter.h in Headers */,
+				5E1935D2219A08B500E16AEB /* ISharedObjectListener.h in Headers */,
+				5E1935D3219A08B500E16AEB /* BodyParts.h in Headers */,
+				5E1935D4219A08B500E16AEB /* RTHelper.h in Headers */,
+				5E1935D5219A08B500E16AEB /* DeviceRegistrationAdapter.h in Headers */,
+				5E1935D6219A08B500E16AEB /* BackendlessBeacon.h in Headers */,
+				5E1935D7219A08B500E16AEB /* RTClient.h in Headers */,
+				5E1935D8219A08B500E16AEB /* MessagingService.h in Headers */,
+				5E1935D9219A08B500E16AEB /* AmfV3Formatter.h in Headers */,
+				5E1935DA219A08B500E16AEB /* ReqMessage.h in Headers */,
+				5E1935DB219A08B500E16AEB /* PublishMessageInfoWrapper.h in Headers */,
+				5E1935DC219A08B500E16AEB /* DateReader.h in Headers */,
+				5E1935DD219A08B500E16AEB /* JSONHelper.h in Headers */,
+				5E1935DE219A08B500E16AEB /* Types.h in Headers */,
+				5E1935DF219A08B500E16AEB /* PublishMessageInfo.h in Headers */,
+				5E1935E0219A08B500E16AEB /* NotAReader.h in Headers */,
+				5E1935E1219A08B500E16AEB /* RTService.h in Headers */,
+				5E1935E2219A08B500E16AEB /* ICastingAttributeStore.h in Headers */,
+				5E1935E3219A08B500E16AEB /* VoidResponseWrapper.h in Headers */,
+				5E1935E4219A08B500E16AEB /* ITypeWriter.h in Headers */,
+				5E1935E5219A08B500E16AEB /* UTFStringReader.h in Headers */,
+				5E1935E6219A08B500E16AEB /* IClientSharedObjectDelegate.h in Headers */,
+				5E1935E7219A08B500E16AEB /* DataStoreFactory.h in Headers */,
+				5E1935E8219A08B500E16AEB /* IClientSharedObject.h in Headers */,
+				5E1935E9219A08B500E16AEB /* UserStatusObject.h in Headers */,
+				5E1935EA219A08B500E16AEB /* Body.h in Headers */,
+				5E1935EB219A08B500E16AEB /* RTSubscription.h in Headers */,
+				5E1935EC219A08B500E16AEB /* ArrayType.h in Headers */,
+				5E1935ED219A08B500E16AEB /* IServiceCall.h in Headers */,
+				5E1935EE219A08B500E16AEB /* RTMPClient.h in Headers */,
+				5E1935EF219A08B500E16AEB /* Invoker.h in Headers */,
+				5E1935F0219A08B500E16AEB /* ArrayReader.h in Headers */,
+				5E1935F1219A08B500E16AEB /* ServerCallback.h in Headers */,
+				5E1935F2219A08B500E16AEB /* CacheService.h in Headers */,
+				5E1935F3219A08B500E16AEB /* NullHelper.h in Headers */,
+				5E1935F4219A08B500E16AEB /* AbstractReferenceableTypeWriter.h in Headers */,
+				5E1935F5219A08B500E16AEB /* Events.h in Headers */,
+				5E1935F6219A08B500E16AEB /* NullReader.h in Headers */,
+				5E1935F7219A08B500E16AEB /* BaseEvent.h in Headers */,
+				5E1935F8219A08B500E16AEB /* ReconnectAttemptObject.h in Headers */,
+				5E1935F9219A08B500E16AEB /* EventType.h in Headers */,
+				5E1935FA219A08B500E16AEB /* RTMessaging.h in Headers */,
+				5E1935FB219A08B500E16AEB /* CommandObject.h in Headers */,
+				5E1935FC219A08B500E16AEB /* WeborbClient.h in Headers */,
+				5E1935FD219A08B500E16AEB /* Presence.h in Headers */,
+				5E1935FE219A08B500E16AEB /* ClassCastException.h in Headers */,
+				5E1935FF219A08B500E16AEB /* AuthorizationException.h in Headers */,
+				5E193600219A08B500E16AEB /* IServiceHandlerProvider.h in Headers */,
+				5E193601219A08B500E16AEB /* BooleanReader.h in Headers */,
+				5E193602219A08B500E16AEB /* IProtocolFormatter.h in Headers */,
+				5E193603219A08B500E16AEB /* IEventListener.h in Headers */,
+				5E193604219A08B500E16AEB /* GeoFenceMonitoring.h in Headers */,
+				5E193605219A08B500E16AEB /* LogBuffer.h in Headers */,
+				5E193606219A08B500E16AEB /* IPersistenceStore.h in Headers */,
+				5E193607219A08B500E16AEB /* ISerializer.h in Headers */,
+				5E193608219A08B500E16AEB /* GeoCategory.h in Headers */,
+				5E193609219A08B500E16AEB /* DateType.h in Headers */,
+				5E19360A219A08B500E16AEB /* UserDefaultsHelper.h in Headers */,
+				5E19360B219A08B500E16AEB /* ObjectProperty.h in Headers */,
+				5E19360C219A08B500E16AEB /* RTMProtocol.h in Headers */,
+				5E19360D219A08B500E16AEB /* KeychainDataStore.h in Headers */,
+				5E19360E219A08B500E16AEB /* HashMap.h in Headers */,
+				5E19360F219A08B500E16AEB /* ISharedObjectMessage.h in Headers */,
+				5E193610219A08B500E16AEB /* QueryOptions.h in Headers */,
+				5E193611219A08B500E16AEB /* V3DateReader.h in Headers */,
+				5E193612219A08B500E16AEB /* Logging.h in Headers */,
+				5E193613219A08B500E16AEB /* BoundPropertyBagWriter.h in Headers */,
+				5E193614219A08B500E16AEB /* FileService.h in Headers */,
+				5E193615219A08B500E16AEB /* Call.h in Headers */,
+				5E193616219A08B500E16AEB /* RTSharedObject.h in Headers */,
+				5E193617219A08B500E16AEB /* MetaData.h in Headers */,
+				5E193618219A08B500E16AEB /* RTMethod.h in Headers */,
+				5E193619219A08B500E16AEB /* SharedObjectEventType.h in Headers */,
+				5E19361A219A08B500E16AEB /* StringWriter.h in Headers */,
+				5E19361B219A08B500E16AEB /* Aggregate.h in Headers */,
+				5E19361C219A08B500E16AEB /* LoadRelationsQueryBuilder.h in Headers */,
+				5E19361D219A08B500E16AEB /* IPendingServiceCall.h in Headers */,
+				5E19361E219A08B500E16AEB /* BackendlessPushHelper.h in Headers */,
+				5E19361F219A08B500E16AEB /* IStreamPacket.h in Headers */,
+				5E193620219A08B500E16AEB /* AdapterFactory.h in Headers */,
+				5E193621219A08B500E16AEB /* MessageWriter.h in Headers */,
+				5E193622219A08B500E16AEB /* Invoke.h in Headers */,
+				5E193623219A08B500E16AEB /* HttpEngine.h in Headers */,
+				5E193624219A08B500E16AEB /* NamedObjectReader.h in Headers */,
+				5E193625219A08B500E16AEB /* V3ObjectSerializer.h in Headers */,
+				5E193626219A08B500E16AEB /* ErrMessage.h in Headers */,
+				5E193627219A08B500E16AEB /* IEventDispatcher.h in Headers */,
+				5E193628219A08B500E16AEB /* RTFactory.h in Headers */,
+				5E193629219A08B500E16AEB /* UserProperty.h in Headers */,
+				5E19362A219A08B500E16AEB /* Datatypes.h in Headers */,
+				5E19362B219A08B500E16AEB /* SharedObjectEvent.h in Headers */,
+				5E19362C219A08B500E16AEB /* BinaryStream.h in Headers */,
+				5E19362D219A08B500E16AEB /* PagedQueryBuilder.h in Headers */,
+				5E19362E219A08B500E16AEB /* BeaconTracker.h in Headers */,
+				5E19362F219A08B500E16AEB /* IAtomicCounters.h in Headers */,
+				5E193630219A08B500E16AEB /* AbstractUnreferenceableTypeWriter.h in Headers */,
+				5E193631219A08B500E16AEB /* BackendlessCacheProtocol.h in Headers */,
+				5E193632219A08B500E16AEB /* SharedObject.h in Headers */,
+				5E193633219A08B500E16AEB /* V3ArrayReader.h in Headers */,
+				5E193634219A08B500E16AEB /* AttributeStore.h in Headers */,
+				5E193635219A08B500E16AEB /* V3Reader.h in Headers */,
+				5E193636219A08B500E16AEB /* CrowdNode.h in Headers */,
+				5E193637219A08B500E16AEB /* ICacheService.h in Headers */,
+				5E193638219A08B500E16AEB /* AbstractQuery.h in Headers */,
+				5E193639219A08B500E16AEB /* DateWriter.h in Headers */,
+				5E19363A219A08B500E16AEB /* ObjectSerializer.h in Headers */,
+				5E19363B219A08B500E16AEB /* CacheFactory.h in Headers */,
+				5E19363C219A08B500E16AEB /* DeviceRegistration.h in Headers */,
+				5E19363D219A08B500E16AEB /* IDeserializer.h in Headers */,
+				5E19363E219A08B500E16AEB /* BooleanType.h in Headers */,
+				5E19363F219A08B500E16AEB /* V3ObjectReader.h in Headers */,
+				5E193640219A08B500E16AEB /* BackendlessSimpleQuery.h in Headers */,
+				5E193641219A08B500E16AEB /* BackendlessCacheKey.h in Headers */,
+				5E193642219A08B500E16AEB /* GeoService.h in Headers */,
+				5E193643219A08B500E16AEB /* CustomService.h in Headers */,
+				5E193644219A08B500E16AEB /* IEvent.h in Headers */,
+				5E193645219A08B500E16AEB /* BinaryCodec.h in Headers */,
+				5E193646219A08B500E16AEB /* WebORBSerializer.h in Headers */,
+				5E193647219A08B500E16AEB /* V3VectorReader.h in Headers */,
+				5E193648219A08B500E16AEB /* FlashorbBinaryWriter.h in Headers */,
+				5E193649219A08B500E16AEB /* GeoCluster.h in Headers */,
+				5E19364A219A08B500E16AEB /* RTListener.h in Headers */,
+				5E19364B219A08B500E16AEB /* PropertyBagWriter.h in Headers */,
+				5E19364C219A08B500E16AEB /* Packet.h in Headers */,
+				5E19364D219A08B500E16AEB /* FilePermission.h in Headers */,
+				5E19364E219A08B500E16AEB /* ISharedObjectEvent.h in Headers */,
+				5E19364F219A08B500E16AEB /* AsyncMessage.h in Headers */,
+				5E193650219A08B500E16AEB /* IAttributeStore.h in Headers */,
+				5E193651219A08B500E16AEB /* IntegerReader.h in Headers */,
+				5E193652219A08B500E16AEB /* IObjectSerializer.h in Headers */,
+				5E193653219A08B500E16AEB /* AtomicCounters.h in Headers */,
+				5E193654219A08B500E16AEB /* V3ReferenceCache.h in Headers */,
+				5E193655219A08B500E16AEB /* IPendingServiceCallback.h in Headers */,
+				5E193656219A08B500E16AEB /* IPresenceListener.h in Headers */,
+				5E193657219A08B500E16AEB /* BackendlessGeoQuery.h in Headers */,
+				5E193658219A08B500E16AEB /* InvokeObject.h in Headers */,
+				5E193659219A08B500E16AEB /* Subscription.h in Headers */,
+				5E19365A219A08B500E16AEB /* UICKeyChainStore.h in Headers */,
+				5E19365B219A08B500E16AEB /* DataQueryBuilder.h in Headers */,
+				5E19365C219A08B500E16AEB /* ClientCallback.h in Headers */,
+				5E19365D219A08B500E16AEB /* RequestParser.h in Headers */,
+				5E19365E219A08B500E16AEB /* SharedObjectService.h in Headers */,
+				5E19365F219A08B500E16AEB /* BackendlessEntity.h in Headers */,
+				5E193660219A08B500E16AEB /* NumberWriter.h in Headers */,
+				5E193661219A08B500E16AEB /* Request.h in Headers */,
+				5E193662219A08B500E16AEB /* NumberObject.h in Headers */,
+				5E193663219A08B500E16AEB /* MultiDimArrayWriter.h in Headers */,
+				5E193664219A08B500E16AEB /* ISharedObjectBase.h in Headers */,
+				5E193665219A08B500E16AEB /* IStreamDispatcher.h in Headers */,
+				5E193666219A08B500E16AEB /* ReferenceCache.h in Headers */,
+				5E193667219A08B500E16AEB /* IServiceObjectFactory.h in Headers */,
+				5E193668219A08B500E16AEB /* ClassDefinition.h in Headers */,
+				5E193669219A08B500E16AEB /* BackendlessCachePolicy.h in Headers */,
+				5E19366A219A08B500E16AEB /* IPersistable.h in Headers */,
+				5E19366B219A08B500E16AEB /* MapDrivenDataStore.h in Headers */,
+				5E19366C219A08B500E16AEB /* ICacheableAdaptingType.h in Headers */,
+				5E19366D219A08B500E16AEB /* StringReferenceWriter.h in Headers */,
+				5E19366E219A08B500E16AEB /* AtomicCountersFactory.h in Headers */,
+				5E19366F219A08B500E16AEB /* NotifyEvent.h in Headers */,
+				5E193670219A08B500E16AEB /* BackendlessUser.h in Headers */,
+				5E193671219A08B500E16AEB /* ObjectFactories.h in Headers */,
+				5E193672219A08B500E16AEB /* Logger.h in Headers */,
+				5E193673219A08B500E16AEB /* BoundPropertyBagReader.h in Headers */,
+				5E193674219A08B500E16AEB /* DefaultAdapter.h in Headers */,
+				5E193675219A08B500E16AEB /* StringType.h in Headers */,
+				5E193676219A08B500E16AEB /* NullType.h in Headers */,
+				5E193677219A08B500E16AEB /* AmfFormatter.h in Headers */,
+				5E193678219A08B500E16AEB /* WebORBDeserializer.h in Headers */,
+				5E193679219A08B500E16AEB /* UserInfo.h in Headers */,
+				5E19367A219A08B500E16AEB /* V3ByteArrayReader.h in Headers */,
+				5E19367B219A08B500E16AEB /* AckMessage.h in Headers */,
+				5E19367C219A08B500E16AEB /* ISharedObjectHandlerProvider.h in Headers */,
+				5E19367D219A08B500E16AEB /* MessageStatus.h in Headers */,
+				5E19367E219A08B500E16AEB /* ArrayWriter.h in Headers */,
+				5E19367F219A08B500E16AEB /* CustomServiceAdapter.h in Headers */,
+				5E193680219A08B500E16AEB /* BackendlessDataQuery.h in Headers */,
+				5E193681219A08B500E16AEB /* Responder.h in Headers */,
+				5E193682219A08B500E16AEB /* SharedObjectMessage.h in Headers */,
+				5E193683219A08B500E16AEB /* ICallback.h in Headers */,
+				5E193684219A08B500E16AEB /* ObjectWriter.h in Headers */,
+				5E193685219A08B500E16AEB /* RTMPConstants.h in Headers */,
+				5E193686219A08B500E16AEB /* ITypeReader.h in Headers */,
+				5E193687219A08B500E16AEB /* UserService.h in Headers */,
+				5E193688219A08B500E16AEB /* DeliveryOptions.h in Headers */,
+				5E193689219A08B500E16AEB /* PersistenceService.h in Headers */,
+				5E19368A219A08B500E16AEB /* IAdaptingType.h in Headers */,
+				5E19368B219A08B500E16AEB /* UndefinedType.h in Headers */,
+				5E19368C219A08B500E16AEB /* AnonymousObjectReader.h in Headers */,
+				5E19368D219A08B500E16AEB /* BackendlessCacheData.h in Headers */,
+				5E19368E219A08B500E16AEB /* UndefinedTypeReader.h in Headers */,
+				5E19368F219A08B500E16AEB /* DataPermission.h in Headers */,
+				5E193690219A08B500E16AEB /* BackendlessUserAdapter.h in Headers */,
+				5E193691219A08B500E16AEB /* ClientSharedObject.h in Headers */,
+				5E193692219A08B500E16AEB /* Ping.h in Headers */,
+				5E193693219A08B500E16AEB /* ParseContext.h in Headers */,
+				5E193694219A08B500E16AEB /* AMFSerializer.h in Headers */,
+				5E193695219A08B500E16AEB /* BooleanWriter.h in Headers */,
+				5E193696219A08B500E16AEB /* LongUTFStringReader.h in Headers */,
+				5E193697219A08B500E16AEB /* VideoData.h in Headers */,
+				5E193698219A08B500E16AEB /* BaseRTMPProtocolDecoder.h in Headers */,
+				5E193699219A08B500E16AEB /* ArrayReferenceWriter.h in Headers */,
+				5E19369A219A08B500E16AEB /* BeaconsInfo.h in Headers */,
+				5E19369B219A08B500E16AEB /* BEFileInfo.h in Headers */,
+				5E19369C219A08B500E16AEB /* V3Message.h in Headers */,
+				5E19369D219A08B500E16AEB /* AudioData.h in Headers */,
+				5E19369E219A08B500E16AEB /* BodyHolderFactory.h in Headers */,
+				5E19369F219A08B500E16AEB /* AdaptResponder.h in Headers */,
+				5E1936A0219A08B500E16AEB /* ReaderReferenceCache.h in Headers */,
+				5E1936A1219A08B500E16AEB /* NullWriter.h in Headers */,
+				5E1936A2219A08B500E16AEB /* CommandMessage.h in Headers */,
+				5E1936A3219A08B500E16AEB /* MemoryTicker.h in Headers */,
+				5E1936A4219A08B500E16AEB /* ConcreteObject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5E193437219A070700E16AEB /* BackendlessUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E193440219A070700E16AEB /* Build configuration list for PBXNativeTarget "BackendlessUI" */;
+			buildPhases = (
+				5EBBCB17F3280E0226C0C9B3 /* [CP] Check Pods Manifest.lock */,
+				5E193433219A070700E16AEB /* Headers */,
+				5E193434219A070700E16AEB /* Sources */,
+				5E193435219A070700E16AEB /* Frameworks */,
+				5E193436219A070700E16AEB /* Resources */,
+				1E943FF234301CCF27C8F1D8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BackendlessUI;
+			productName = BackendlessUI;
+			productReference = 5E193438219A070700E16AEB /* BackendlessUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E19342F219A070700E16AEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Olha Danylova";
+				TargetAttributes = {
+					5E193437219A070700E16AEB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5E193443219A072B00E16AEB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 5E193432219A070700E16AEB /* Build configuration list for PBXProject "BackendlessUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5E19342E219A070700E16AEB;
+			productRefGroup = 5E193439219A070700E16AEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E193437219A070700E16AEB /* BackendlessUI */,
+				5E193443219A072B00E16AEB /* UniversalBackendlessUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E193436219A070700E16AEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E193478219A07D100E16AEB /* BackendlessAddRelationsView.xib in Resources */,
+				5E193479219A07D100E16AEB /* BackendlessObjectDetailsView.xib in Resources */,
+				5E19347A219A07D100E16AEB /* BackendlessSignUpView.xib in Resources */,
+				5E19347D219A07D100E16AEB /* BackendlessLoginView.xib in Resources */,
+				5E19347B219A07D100E16AEB /* BackendlessRelationsView.xib in Resources */,
+				5E193475219A07D100E16AEB /* BackendlessTableView.xib in Resources */,
+				5E909553219B311E00C129F8 /* BackendlessSocialLoginView.xib in Resources */,
+				5E193480219A07D100E16AEB /* BackendlessLogoutView.xib in Resources */,
+				5E193476219A07D100E16AEB /* UnrelatedObjectCell.xib in Resources */,
+				5E193481219A07D100E16AEB /* BackendlessAddObjectPropertyView.xib in Resources */,
+				5E193477219A07D100E16AEB /* ObjectDetailCell.xib in Resources */,
+				5E19347E219A07D100E16AEB /* BackendlessRestorePasswordView.xib in Resources */,
+				5E19347C219A07D100E16AEB /* BackendlessAddObjectView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E943FF234301CCF27C8F1D8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BackendlessUI/Pods-BackendlessUI-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BackendlessUI/Pods-BackendlessUI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E193447219A072F00E16AEB /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target \"BackendlessUI\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target \"BackendlessUI\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/BackendlessUI.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 3. Copy Swift modules from iphonesimulator build (if it exists) to the copied framework directory\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/BackendlessUI.framework/Modules/BackendlessUI.swiftmodule/.\"\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/BackendlessUI.framework/Modules/BackendlessUI.swiftmodule\"\nfi\n\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/BackendlessUI.framework/BackendlessUI\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/BackendlessUI.framework/BackendlessUI\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/BackendlessUI.framework/BackendlessUI\"\n\n# Step 5. Convenience step to copy the framework to the project's directory\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/BackendlessUI.framework\" \"${PROJECT_DIR}\"\n\n# Step 6. Convenience step to open the project's directory in Finder\nopen \"${PROJECT_DIR}\"\n\n";
+		};
+		5EBBCB17F3280E0226C0C9B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BackendlessUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E193434219A070700E16AEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E19348E219A07D100E16AEB /* ObjectDetailCell.swift in Sources */,
+				5E19348D219A07D100E16AEB /* BackendlessRestorePasswordView.swift in Sources */,
+				5E193496219A07D100E16AEB /* BackendlessObjectDetailsViewController.swift in Sources */,
+				5E193483219A07D100E16AEB /* BackendlessLogoutView.swift in Sources */,
+				5E19349B219A07D100E16AEB /* BackendlessRestorePasswordViewController.swift in Sources */,
+				5E193495219A07D100E16AEB /* AlertViewController.swift in Sources */,
+				5E193482219A07D100E16AEB /* Extensions.swift in Sources */,
+				5E193487219A07D100E16AEB /* BackendlessAddRelationsView.swift in Sources */,
+				5E19349A219A07D100E16AEB /* BackendlessSignUpViewController.swift in Sources */,
+				5E193492219A07D100E16AEB /* BackendlessAddObjectPropertyViewController.swift in Sources */,
+				5E193486219A07D100E16AEB /* BackendlessAddObjectView.swift in Sources */,
+				5E909557219B312F00C129F8 /* BackendlessSocialLoginViewController.swift in Sources */,
+				5E193489219A07D100E16AEB /* BackendlessObjectDetailsView.swift in Sources */,
+				5E193490219A07D100E16AEB /* BackendlessTableViewController.swift in Sources */,
+				5E193491219A07D100E16AEB /* BackendlessLogoutViewController.swift in Sources */,
+				5E909555219B312700C129F8 /* BackendlessSocialLoginView.swift in Sources */,
+				5E19348A219A07D100E16AEB /* BackendlessAddObjectPropertyView.swift in Sources */,
+				5E193485219A07D100E16AEB /* BackendlessSignUpView.swift in Sources */,
+				5E193494219A07D100E16AEB /* BackendlessLoginViewController.swift in Sources */,
+				5E193484219A07D100E16AEB /* BackendlessRelationsView.swift in Sources */,
+				5E193498219A07D100E16AEB /* BackendlessAddObjectViewController.swift in Sources */,
+				5E193493219A07D100E16AEB /* BackendlessAddRelationsViewController.swift in Sources */,
+				5E19348B219A07D100E16AEB /* BackendlessLoginView.swift in Sources */,
+				5E193488219A07D100E16AEB /* BackendlessTableView.swift in Sources */,
+				5E193497219A07D100E16AEB /* BackendlessRelationsViewController.swift in Sources */,
+				5E19348F219A07D100E16AEB /* UnrelatedObjectCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5E19343E219A070700E16AEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5E19343F219A070700E16AEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5E193441219A070700E16AEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2542AC9968E4B8F38BD2849 /* Pods-BackendlessUI.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 73FSJC7BUF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BackendlessUI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -Xcc -Wno-incomplete-umbrella";
+				PRODUCT_BUNDLE_IDENTIFIER = com.backendless.BackendlessUI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E193442219A070700E16AEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 421C2B7432C4B274450D76CC /* Pods-BackendlessUI.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 73FSJC7BUF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BackendlessUI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -Xcc -Wno-incomplete-umbrella";
+				PRODUCT_BUNDLE_IDENTIFIER = com.backendless.BackendlessUI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5E193445219A072B00E16AEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73FSJC7BUF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5E193446219A072B00E16AEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73FSJC7BUF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E193432219A070700E16AEB /* Build configuration list for PBXProject "BackendlessUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E19343E219A070700E16AEB /* Debug */,
+				5E19343F219A070700E16AEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E193440219A070700E16AEB /* Build configuration list for PBXNativeTarget "BackendlessUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E193441219A070700E16AEB /* Debug */,
+				5E193442219A070700E16AEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E193444219A072B00E16AEB /* Build configuration list for PBXAggregateTarget "UniversalBackendlessUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E193445219A072B00E16AEB /* Debug */,
+				5E193446219A072B00E16AEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E19342F219A070700E16AEB /* Project object */;
+}

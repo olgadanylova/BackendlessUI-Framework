@@ -1,0 +1,1333 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/olhadanylova/Library/Developer/Xcode/DerivedData/BackendlessUI-frealplzgyomabgkgayrezydadmr/Build/Products/Release-iphonesimulator/BackendlessUI.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AMFBodyWriter.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/AMFBodyWriter.h"
+        },
+        {
+          'type': 'file',
+          'name': "AMFHeaderWriter.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/AMFHeaderWriter.h"
+        },
+        {
+          'type': 'file',
+          'name': "AMFMessageWriter.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/AMFMessageWriter.h"
+        },
+        {
+          'type': 'file',
+          'name': "AMFSerializer.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/AMFSerializer.h"
+        },
+        {
+          'type': 'file',
+          'name': "AbstractProperty.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/AbstractProperty.h"
+        },
+        {
+          'type': 'file',
+          'name': "AbstractQuery.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/AbstractQuery.h"
+        },
+        {
+          'type': 'file',
+          'name': "AbstractReferenceableTypeWriter.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/AbstractReferenceableTypeWriter.h"
+        },
+        {
+          'type': 'file',
+          'name': "AbstractUnreferenceableTypeWriter.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/AbstractUnreferenceableTypeWriter.h"
+        },
+        {
+          'type': 'file',
+          'name': "AckMessage.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/AckMessage.h"
+        },
+        {
+          'type': 'file',
+          'name': "AdaptResponder.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/AdaptResponder.h"
+        },
+        {
+          'type': 'file',
+          'name': "AdapterFactory.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/AdapterFactory.h"
+        },
+        {
+          'type': 'file',
+          'name': "Aggregate.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/Aggregate.h"
+        },
+        {
+          'type': 'file',
+          'name': "AmfFormatter.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/AmfFormatter.h"
+        },
+        {
+          'type': 'file',
+          'name': "AmfV3Formatter.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/AmfV3Formatter.h"
+        },
+        {
+          'type': 'file',
+          'name': "AnonymousObject.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/AnonymousObject.h"
+        },
+        {
+          'type': 'file',
+          'name': "AnonymousObjectReader.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/AnonymousObjectReader.h"
+        },
+        {
+          'type': 'file',
+          'name': "ArrayReader.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/ArrayReader.h"
+        },
+        {
+          'type': 'file',
+          'name': "ArrayReferenceWriter.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/ArrayReferenceWriter.h"
+        },
+        {
+          'type': 'file',
+          'name': "ArrayType.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/ArrayType.h"
+        },
+        {
+          'type': 'file',
+          'name': "ArrayWriter.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/ArrayWriter.h"
+        },
+        {
+          'type': 'file',
+          'name': "AsyncMessage.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/AsyncMessage.h"
+        },
+        {
+          'type': 'file',
+          'name': "AtomicCounters.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/AtomicCounters.h"
+        },
+        {
+          'type': 'file',
+          'name': "AtomicCountersFactory.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/AtomicCountersFactory.h"
+        },
+        {
+          'type': 'file',
+          'name': "AttributeStore.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/AttributeStore.h"
+        },
+        {
+          'type': 'file',
+          'name': "AudioData.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/AudioData.h"
+        },
+        {
+          'type': 'file',
+          'name': "AuthorizationException.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/AuthorizationException.h"
+        },
+        {
+          'type': 'file',
+          'name': "BEFileInfo.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/BEFileInfo.h"
+        },
+        {
+          'type': 'file',
+          'name': "Backendless-Bridging-Header.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/Backendless-Bridging-Header.h"
+        },
+        {
+          'type': 'file',
+          'name': "Backendless.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/Backendless.h"
+        },
+        {
+          'type': 'file',
+          'name': "BackendlessBeacon.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/BackendlessBeacon.h"
+        },
+        {
+          'type': 'file',
+          'name': "BackendlessCache.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/BackendlessCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "BackendlessCacheData.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/BackendlessCacheData.h"
+        },
+        {
+          'type': 'file',
+          'name': "BackendlessCacheKey.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/BackendlessCacheKey.h"
+        },
+        {
+          'type': 'file',
+          'name': "BackendlessCachePolicy.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/BackendlessCachePolicy.h"
+        },
+        {
+          'type': 'file',
+          'name': "BackendlessCacheProtocol.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/BackendlessCacheProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "BackendlessDataQuery.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/BackendlessDataQuery.h"
+        },
+        {
+          'type': 'file',
+          'name': "BackendlessEntity.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/BackendlessEntity.h"
+        },
+        {
+          'type': 'file',
+          'name': "BackendlessFile.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/BackendlessFile.h"
+        },
+        {
+          'type': 'file',
+          'name': "BackendlessGeoQuery.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/BackendlessGeoQuery.h"
+        },
+        {
+          'type': 'file',
+          'name': "BackendlessPushHelper.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/BackendlessPushHelper.h"
+        },
+        {
+          'type': 'file',
+          'name': "BackendlessSimpleQuery.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/BackendlessSimpleQuery.h"
+        },
+        {
+          'type': 'file',
+          'name': "BackendlessUI-Swift.h",
+          'external-contents': "/Users/olhadanylova/Library/Developer/Xcode/DerivedData/BackendlessUI-frealplzgyomabgkgayrezydadmr/Build/Products/Release-iphonesimulator/BackendlessUI.framework/Headers/BackendlessUI-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "BackendlessUI.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/BackendlessUI/BackendlessUI.h"
+        },
+        {
+          'type': 'file',
+          'name': "BackendlessUser.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/BackendlessUser.h"
+        },
+        {
+          'type': 'file',
+          'name': "BackendlessUserAdapter.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/BackendlessUserAdapter.h"
+        },
+        {
+          'type': 'file',
+          'name': "BaseEvent.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/BaseEvent.h"
+        },
+        {
+          'type': 'file',
+          'name': "BaseRTMPProtocolDecoder.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/BaseRTMPProtocolDecoder.h"
+        },
+        {
+          'type': 'file',
+          'name': "BaseRTMPProtocolEncoder.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/BaseRTMPProtocolEncoder.h"
+        },
+        {
+          'type': 'file',
+          'name': "BeaconMonitoring.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/BeaconMonitoring.h"
+        },
+        {
+          'type': 'file',
+          'name': "BeaconTracker.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/BeaconTracker.h"
+        },
+        {
+          'type': 'file',
+          'name': "BeaconsInfo.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/BeaconsInfo.h"
+        },
+        {
+          'type': 'file',
+          'name': "BinaryCodec.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/BinaryCodec.h"
+        },
+        {
+          'type': 'file',
+          'name': "BinaryStream.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/BinaryStream.h"
+        },
+        {
+          'type': 'file',
+          'name': "Body.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/Body.h"
+        },
+        {
+          'type': 'file',
+          'name': "BodyHolder.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/BodyHolder.h"
+        },
+        {
+          'type': 'file',
+          'name': "BodyHolderFactory.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/BodyHolderFactory.h"
+        },
+        {
+          'type': 'file',
+          'name': "BodyHolderWriter.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/BodyHolderWriter.h"
+        },
+        {
+          'type': 'file',
+          'name': "BodyParts.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/BodyParts.h"
+        },
+        {
+          'type': 'file',
+          'name': "BooleanReader.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/BooleanReader.h"
+        },
+        {
+          'type': 'file',
+          'name': "BooleanType.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/BooleanType.h"
+        },
+        {
+          'type': 'file',
+          'name': "BooleanWriter.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/BooleanWriter.h"
+        },
+        {
+          'type': 'file',
+          'name': "BoundPropertyBagReader.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/BoundPropertyBagReader.h"
+        },
+        {
+          'type': 'file',
+          'name': "BoundPropertyBagWriter.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/BoundPropertyBagWriter.h"
+        },
+        {
+          'type': 'file',
+          'name': "BulkEvent.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/BulkEvent.h"
+        },
+        {
+          'type': 'file',
+          'name': "ByteArrayType.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/ByteArrayType.h"
+        },
+        {
+          'type': 'file',
+          'name': "CacheFactory.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/CacheFactory.h"
+        },
+        {
+          'type': 'file',
+          'name': "CacheService.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/CacheService.h"
+        },
+        {
+          'type': 'file',
+          'name': "Call.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/Call.h"
+        },
+        {
+          'type': 'file',
+          'name': "Channel.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/Channel.h"
+        },
+        {
+          'type': 'file',
+          'name': "ClassCastException.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/ClassCastException.h"
+        },
+        {
+          'type': 'file',
+          'name': "ClassDefinition.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/ClassDefinition.h"
+        },
+        {
+          'type': 'file',
+          'name': "ClientCallback.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/ClientCallback.h"
+        },
+        {
+          'type': 'file',
+          'name': "ClientSharedObject.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/ClientSharedObject.h"
+        },
+        {
+          'type': 'file',
+          'name': "CommandMessage.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/CommandMessage.h"
+        },
+        {
+          'type': 'file',
+          'name': "CommandObject.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/CommandObject.h"
+        },
+        {
+          'type': 'file',
+          'name': "ConcreteObject.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/ConcreteObject.h"
+        },
+        {
+          'type': 'file',
+          'name': "CrowdNode.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/CrowdNode.h"
+        },
+        {
+          'type': 'file',
+          'name': "CustomService.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/CustomService.h"
+        },
+        {
+          'type': 'file',
+          'name': "CustomServiceAdapter.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/CustomServiceAdapter.h"
+        },
+        {
+          'type': 'file',
+          'name': "DEBUG.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/DEBUG.h"
+        },
+        {
+          'type': 'file',
+          'name': "DataPermission.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/DataPermission.h"
+        },
+        {
+          'type': 'file',
+          'name': "DataQueryBuilder.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/DataQueryBuilder.h"
+        },
+        {
+          'type': 'file',
+          'name': "DataStoreFactory.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/DataStoreFactory.h"
+        },
+        {
+          'type': 'file',
+          'name': "Datatypes.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/Datatypes.h"
+        },
+        {
+          'type': 'file',
+          'name': "DateReader.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/DateReader.h"
+        },
+        {
+          'type': 'file',
+          'name': "DateType.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/DateType.h"
+        },
+        {
+          'type': 'file',
+          'name': "DateWriter.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/DateWriter.h"
+        },
+        {
+          'type': 'file',
+          'name': "DefaultAdapter.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/DefaultAdapter.h"
+        },
+        {
+          'type': 'file',
+          'name': "DeliveryOptions.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/DeliveryOptions.h"
+        },
+        {
+          'type': 'file',
+          'name': "DeviceRegistration.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/DeviceRegistration.h"
+        },
+        {
+          'type': 'file',
+          'name': "DeviceRegistrationAdapter.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/DeviceRegistrationAdapter.h"
+        },
+        {
+          'type': 'file',
+          'name': "Engine.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/Engine.h"
+        },
+        {
+          'type': 'file',
+          'name': "ErrMessage.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/ErrMessage.h"
+        },
+        {
+          'type': 'file',
+          'name': "EventHandler.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/EventHandler.h"
+        },
+        {
+          'type': 'file',
+          'name': "EventType.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/EventType.h"
+        },
+        {
+          'type': 'file',
+          'name': "Events.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/Events.h"
+        },
+        {
+          'type': 'file',
+          'name': "FilePermission.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/FilePermission.h"
+        },
+        {
+          'type': 'file',
+          'name': "FileService.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/FileService.h"
+        },
+        {
+          'type': 'file',
+          'name': "FlashorbBinaryReader.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/FlashorbBinaryReader.h"
+        },
+        {
+          'type': 'file',
+          'name': "FlashorbBinaryWriter.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/FlashorbBinaryWriter.h"
+        },
+        {
+          'type': 'file',
+          'name': "FlexMessage.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/FlexMessage.h"
+        },
+        {
+          'type': 'file',
+          'name': "GeoCategory.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/GeoCategory.h"
+        },
+        {
+          'type': 'file',
+          'name': "GeoCluster.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/GeoCluster.h"
+        },
+        {
+          'type': 'file',
+          'name': "GeoFence.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/GeoFence.h"
+        },
+        {
+          'type': 'file',
+          'name': "GeoFenceMonitoring.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/GeoFenceMonitoring.h"
+        },
+        {
+          'type': 'file',
+          'name': "GeoMath.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/GeoMath.h"
+        },
+        {
+          'type': 'file',
+          'name': "GeoPoint.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/GeoPoint.h"
+        },
+        {
+          'type': 'file',
+          'name': "GeoService.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/GeoService.h"
+        },
+        {
+          'type': 'file',
+          'name': "HashMap.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/HashMap.h"
+        },
+        {
+          'type': 'file',
+          'name': "Header.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/Header.h"
+        },
+        {
+          'type': 'file',
+          'name': "HttpEngine.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/HttpEngine.h"
+        },
+        {
+          'type': 'file',
+          'name': "IAdaptingType.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/IAdaptingType.h"
+        },
+        {
+          'type': 'file',
+          'name': "IArgumentObjectFactory.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/IArgumentObjectFactory.h"
+        },
+        {
+          'type': 'file',
+          'name': "IAtomicCounters.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/IAtomicCounters.h"
+        },
+        {
+          'type': 'file',
+          'name': "IAttributeStore.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/IAttributeStore.h"
+        },
+        {
+          'type': 'file',
+          'name': "IAudioStreamCodec.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/IAudioStreamCodec.h"
+        },
+        {
+          'type': 'file',
+          'name': "ICacheService.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/ICacheService.h"
+        },
+        {
+          'type': 'file',
+          'name': "ICacheableAdaptingType.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/ICacheableAdaptingType.h"
+        },
+        {
+          'type': 'file',
+          'name': "ICallback.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/ICallback.h"
+        },
+        {
+          'type': 'file',
+          'name': "ICastingAttributeStore.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/ICastingAttributeStore.h"
+        },
+        {
+          'type': 'file',
+          'name': "IClientSharedObject.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/IClientSharedObject.h"
+        },
+        {
+          'type': 'file',
+          'name': "IClientSharedObjectDelegate.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/IClientSharedObjectDelegate.h"
+        },
+        {
+          'type': 'file',
+          'name': "IDataStore.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/IDataStore.h"
+        },
+        {
+          'type': 'file',
+          'name': "IDeserializer.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/IDeserializer.h"
+        },
+        {
+          'type': 'file',
+          'name': "IEvent.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/IEvent.h"
+        },
+        {
+          'type': 'file',
+          'name': "IEventDispatcher.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/IEventDispatcher.h"
+        },
+        {
+          'type': 'file',
+          'name': "IEventListener.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/IEventListener.h"
+        },
+        {
+          'type': 'file',
+          'name': "IObjectSerializer.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/IObjectSerializer.h"
+        },
+        {
+          'type': 'file',
+          'name': "IPendingServiceCall.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/IPendingServiceCall.h"
+        },
+        {
+          'type': 'file',
+          'name': "IPendingServiceCallback.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/IPendingServiceCallback.h"
+        },
+        {
+          'type': 'file',
+          'name': "IPersistable.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/IPersistable.h"
+        },
+        {
+          'type': 'file',
+          'name': "IPersistenceStore.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/IPersistenceStore.h"
+        },
+        {
+          'type': 'file',
+          'name': "IPresenceListener.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/IPresenceListener.h"
+        },
+        {
+          'type': 'file',
+          'name': "IProtocolFormatter.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/IProtocolFormatter.h"
+        },
+        {
+          'type': 'file',
+          'name': "IRTMPEvent.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/IRTMPEvent.h"
+        },
+        {
+          'type': 'file',
+          'name': "IRTMProtocol.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/IRTMProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "IResponseAdapter.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/IResponseAdapter.h"
+        },
+        {
+          'type': 'file',
+          'name': "ISerializer.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/ISerializer.h"
+        },
+        {
+          'type': 'file',
+          'name': "IServiceCall.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/IServiceCall.h"
+        },
+        {
+          'type': 'file',
+          'name': "IServiceHandlerProvider.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/IServiceHandlerProvider.h"
+        },
+        {
+          'type': 'file',
+          'name': "IServiceObjectFactory.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/IServiceObjectFactory.h"
+        },
+        {
+          'type': 'file',
+          'name': "ISharedObjectBase.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/ISharedObjectBase.h"
+        },
+        {
+          'type': 'file',
+          'name': "ISharedObjectEvent.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/ISharedObjectEvent.h"
+        },
+        {
+          'type': 'file',
+          'name': "ISharedObjectHandlerProvider.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/ISharedObjectHandlerProvider.h"
+        },
+        {
+          'type': 'file',
+          'name': "ISharedObjectListener.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/ISharedObjectListener.h"
+        },
+        {
+          'type': 'file',
+          'name': "ISharedObjectMessage.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/ISharedObjectMessage.h"
+        },
+        {
+          'type': 'file',
+          'name': "IStreamDispatcher.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/IStreamDispatcher.h"
+        },
+        {
+          'type': 'file',
+          'name': "IStreamPacket.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/IStreamPacket.h"
+        },
+        {
+          'type': 'file',
+          'name': "ITypeReader.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/ITypeReader.h"
+        },
+        {
+          'type': 'file',
+          'name': "ITypeWriter.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/ITypeWriter.h"
+        },
+        {
+          'type': 'file',
+          'name': "IVideoStreamCodec.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/IVideoStreamCodec.h"
+        },
+        {
+          'type': 'file',
+          'name': "IntegerReader.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/IntegerReader.h"
+        },
+        {
+          'type': 'file',
+          'name': "Invoke.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/Invoke.h"
+        },
+        {
+          'type': 'file',
+          'name': "InvokeObject.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/InvokeObject.h"
+        },
+        {
+          'type': 'file',
+          'name': "Invoker.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/Invoker.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSONHelper.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/JSONHelper.h"
+        },
+        {
+          'type': 'file',
+          'name': "KeychainDataStore.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/KeychainDataStore.h"
+        },
+        {
+          'type': 'file',
+          'name': "LoadRelationsQueryBuilder.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/LoadRelationsQueryBuilder.h"
+        },
+        {
+          'type': 'file',
+          'name': "LocationTracker.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/LocationTracker.h"
+        },
+        {
+          'type': 'file',
+          'name': "LogBuffer.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/LogBuffer.h"
+        },
+        {
+          'type': 'file',
+          'name': "Logger.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/Logger.h"
+        },
+        {
+          'type': 'file',
+          'name': "Logging.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/Logging.h"
+        },
+        {
+          'type': 'file',
+          'name': "LongUTFStringReader.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/LongUTFStringReader.h"
+        },
+        {
+          'type': 'file',
+          'name': "MHeader.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/MHeader.h"
+        },
+        {
+          'type': 'file',
+          'name': "MapAdapter.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/MapAdapter.h"
+        },
+        {
+          'type': 'file',
+          'name': "MapDrivenDataStore.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/MapDrivenDataStore.h"
+        },
+        {
+          'type': 'file',
+          'name': "MemoryTicker.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/MemoryTicker.h"
+        },
+        {
+          'type': 'file',
+          'name': "MessageStatus.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/MessageStatus.h"
+        },
+        {
+          'type': 'file',
+          'name': "MessageWriter.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/MessageWriter.h"
+        },
+        {
+          'type': 'file',
+          'name': "MessagingService.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/MessagingService.h"
+        },
+        {
+          'type': 'file',
+          'name': "MetaData.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/MetaData.h"
+        },
+        {
+          'type': 'file',
+          'name': "MultiDimArrayWriter.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/MultiDimArrayWriter.h"
+        },
+        {
+          'type': 'file',
+          'name': "NamedObject.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/NamedObject.h"
+        },
+        {
+          'type': 'file',
+          'name': "NamedObjectReader.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/NamedObjectReader.h"
+        },
+        {
+          'type': 'file',
+          'name': "NotAReader.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/NotAReader.h"
+        },
+        {
+          'type': 'file',
+          'name': "NotifyEvent.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/NotifyEvent.h"
+        },
+        {
+          'type': 'file',
+          'name': "NullHelper.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/NullHelper.h"
+        },
+        {
+          'type': 'file',
+          'name': "NullReader.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/NullReader.h"
+        },
+        {
+          'type': 'file',
+          'name': "NullType.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/NullType.h"
+        },
+        {
+          'type': 'file',
+          'name': "NullWriter.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/NullWriter.h"
+        },
+        {
+          'type': 'file',
+          'name': "NumberObject.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/NumberObject.h"
+        },
+        {
+          'type': 'file',
+          'name': "NumberReader.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/NumberReader.h"
+        },
+        {
+          'type': 'file',
+          'name': "NumberWriter.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/NumberWriter.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORBConstants.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/ORBConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "ObjectFactories.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/ObjectFactories.h"
+        },
+        {
+          'type': 'file',
+          'name': "ObjectProperty.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/ObjectProperty.h"
+        },
+        {
+          'type': 'file',
+          'name': "ObjectReferenceWriter.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/ObjectReferenceWriter.h"
+        },
+        {
+          'type': 'file',
+          'name': "ObjectSerializer.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/ObjectSerializer.h"
+        },
+        {
+          'type': 'file',
+          'name': "ObjectWriter.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/ObjectWriter.h"
+        },
+        {
+          'type': 'file',
+          'name': "Packet.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/Packet.h"
+        },
+        {
+          'type': 'file',
+          'name': "PagedQueryBuilder.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/PagedQueryBuilder.h"
+        },
+        {
+          'type': 'file',
+          'name': "ParseContext.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/ParseContext.h"
+        },
+        {
+          'type': 'file',
+          'name': "PendingCall.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/PendingCall.h"
+        },
+        {
+          'type': 'file',
+          'name': "PersistenceService.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/PersistenceService.h"
+        },
+        {
+          'type': 'file',
+          'name': "Ping.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/Ping.h"
+        },
+        {
+          'type': 'file',
+          'name': "PointerReader.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/PointerReader.h"
+        },
+        {
+          'type': 'file',
+          'name': "Presence.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/Presence.h"
+        },
+        {
+          'type': 'file',
+          'name': "PropertyBagWriter.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/PropertyBagWriter.h"
+        },
+        {
+          'type': 'file',
+          'name': "ProtectedBackendlessGeoQuery.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/ProtectedBackendlessGeoQuery.h"
+        },
+        {
+          'type': 'file',
+          'name': "PublishMessageInfo.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/PublishMessageInfo.h"
+        },
+        {
+          'type': 'file',
+          'name': "PublishMessageInfoWrapper.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/PublishMessageInfoWrapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "PublishOptions.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/PublishOptions.h"
+        },
+        {
+          'type': 'file',
+          'name': "QueryOptions.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/QueryOptions.h"
+        },
+        {
+          'type': 'file',
+          'name': "QueryOptionsBuilder.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/QueryOptionsBuilder.h"
+        },
+        {
+          'type': 'file',
+          'name': "RTClient.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/RTClient.h"
+        },
+        {
+          'type': 'file',
+          'name': "RTFactory.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/RTFactory.h"
+        },
+        {
+          'type': 'file',
+          'name': "RTHelper.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/RTHelper.h"
+        },
+        {
+          'type': 'file',
+          'name': "RTListener.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/RTListener.h"
+        },
+        {
+          'type': 'file',
+          'name': "RTMPClient.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/RTMPClient.h"
+        },
+        {
+          'type': 'file',
+          'name': "RTMPConstants.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/RTMPConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "RTMProtocol.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/RTMProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "RTMessaging.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/RTMessaging.h"
+        },
+        {
+          'type': 'file',
+          'name': "RTMethod.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/RTMethod.h"
+        },
+        {
+          'type': 'file',
+          'name': "RTMethodRequest.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/RTMethodRequest.h"
+        },
+        {
+          'type': 'file',
+          'name': "RTService.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/RTService.h"
+        },
+        {
+          'type': 'file',
+          'name': "RTSharedObject.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/RTSharedObject.h"
+        },
+        {
+          'type': 'file',
+          'name': "RTSubscription.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/RTSubscription.h"
+        },
+        {
+          'type': 'file',
+          'name': "ReaderReferenceCache.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/ReaderReferenceCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "ReaderUtils.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/ReaderUtils.h"
+        },
+        {
+          'type': 'file',
+          'name': "ReconnectAttemptObject.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/ReconnectAttemptObject.h"
+        },
+        {
+          'type': 'file',
+          'name': "ReferenceCache.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/ReferenceCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "ReqMessage.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/ReqMessage.h"
+        },
+        {
+          'type': 'file',
+          'name': "Request.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/Request.h"
+        },
+        {
+          'type': 'file',
+          'name': "RequestParser.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/RequestParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "Responder.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/Responder.h"
+        },
+        {
+          'type': 'file',
+          'name': "ServerCallback.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/ServerCallback.h"
+        },
+        {
+          'type': 'file',
+          'name': "SharedObject.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/SharedObject.h"
+        },
+        {
+          'type': 'file',
+          'name': "SharedObjectChanges.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/SharedObjectChanges.h"
+        },
+        {
+          'type': 'file',
+          'name': "SharedObjectEvent.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/SharedObjectEvent.h"
+        },
+        {
+          'type': 'file',
+          'name': "SharedObjectEventType.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/SharedObjectEventType.h"
+        },
+        {
+          'type': 'file',
+          'name': "SharedObjectMessage.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/SharedObjectMessage.h"
+        },
+        {
+          'type': 'file',
+          'name': "SharedObjectService.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/SharedObjectService.h"
+        },
+        {
+          'type': 'file',
+          'name': "StringReferenceWriter.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/StringReferenceWriter.h"
+        },
+        {
+          'type': 'file',
+          'name': "StringType.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/StringType.h"
+        },
+        {
+          'type': 'file',
+          'name': "StringWriter.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/StringWriter.h"
+        },
+        {
+          'type': 'file',
+          'name': "Subscription.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/Subscription.h"
+        },
+        {
+          'type': 'file',
+          'name': "Types.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/Types.h"
+        },
+        {
+          'type': 'file',
+          'name': "UICKeyChainStore.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/UICKeyChainStore.h"
+        },
+        {
+          'type': 'file',
+          'name': "UTFStringReader.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/UTFStringReader.h"
+        },
+        {
+          'type': 'file',
+          'name': "UndefinedType.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/UndefinedType.h"
+        },
+        {
+          'type': 'file',
+          'name': "UndefinedTypeReader.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/UndefinedTypeReader.h"
+        },
+        {
+          'type': 'file',
+          'name': "UserDefaultsHelper.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/UserDefaultsHelper.h"
+        },
+        {
+          'type': 'file',
+          'name': "UserInfo.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/UserInfo.h"
+        },
+        {
+          'type': 'file',
+          'name': "UserProperty.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/UserProperty.h"
+        },
+        {
+          'type': 'file',
+          'name': "UserService.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/UserService.h"
+        },
+        {
+          'type': 'file',
+          'name': "UserStatusObject.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/UserStatusObject.h"
+        },
+        {
+          'type': 'file',
+          'name': "V3ArrayReader.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/V3ArrayReader.h"
+        },
+        {
+          'type': 'file',
+          'name': "V3ByteArrayReader.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/V3ByteArrayReader.h"
+        },
+        {
+          'type': 'file',
+          'name': "V3DateReader.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/V3DateReader.h"
+        },
+        {
+          'type': 'file',
+          'name': "V3Message.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/V3Message.h"
+        },
+        {
+          'type': 'file',
+          'name': "V3ObjectReader.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/V3ObjectReader.h"
+        },
+        {
+          'type': 'file',
+          'name': "V3ObjectSerializer.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/V3ObjectSerializer.h"
+        },
+        {
+          'type': 'file',
+          'name': "V3Reader.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/V3Reader.h"
+        },
+        {
+          'type': 'file',
+          'name': "V3ReferenceCache.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/V3ReferenceCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "V3StringReader.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/V3StringReader.h"
+        },
+        {
+          'type': 'file',
+          'name': "V3VectorReader.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/V3VectorReader.h"
+        },
+        {
+          'type': 'file',
+          'name': "VideoData.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/VideoData.h"
+        },
+        {
+          'type': 'file',
+          'name': "VoidResponseWrapper.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/VoidResponseWrapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "WebORBDeserializer.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/WebORBDeserializer.h"
+        },
+        {
+          'type': 'file',
+          'name': "WebORBSerializer.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/WebORBSerializer.h"
+        },
+        {
+          'type': 'file',
+          'name': "WeborbClient.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/WeborbClient.h"
+        },
+        {
+          'type': 'file',
+          'name': "WeborbSharedObject.h",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/Pods/Backendless/SDK/ios/backendless/include/WeborbSharedObject.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/olhadanylova/Library/Developer/Xcode/DerivedData/BackendlessUI-frealplzgyomabgkgayrezydadmr/Build/Products/Release-iphonesimulator/BackendlessUI.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/olhadanylova/Desktop/BackendlessUI/build/BackendlessUI.build/Release-iphonesimulator/BackendlessUI.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

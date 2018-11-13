@@ -1,0 +1,11 @@
+framework module BackendlessUI {
+  umbrella header "BackendlessUI.h"
+
+  export *
+  module * { export * }
+}
+
+module BackendlessUI.Swift {
+    header "BackendlessUI-Swift.h"
+    requires objc
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BackendlessObjectDetailsView" customModule="UIDemoApp" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="TFD-qf-6Tk"/>
+                <outlet property="tableView" destination="x8k-Ur-gft" id="uKR-nB-8vF"/>
+                <outlet property="toolbar" destination="Yng-fz-srI" id="SQ4-yz-gDx"/>
+                <outlet property="toolbarCancelButton" destination="xeN-m1-qWI" id="unI-b3-GSy"/>
+                <outlet property="toolbarDeleteButton" destination="jDH-p6-6mm" id="e9Q-be-8Tt"/>
+                <outlet property="toolbarHelpButton" destination="nkx-Vi-KIg" id="Jrd-lS-azT"/>
+                <outlet property="toolbarSaveButton" destination="Up9-Nr-0fF" id="mF3-pt-TDq"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="x8k-Ur-gft">
+                    <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yng-fz-srI">
+                    <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                    <items>
+                        <barButtonItem systemItem="cancel" id="xeN-m1-qWI"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="hvn-PA-jcV"/>
+                        <barButtonItem systemItem="save" id="Up9-Nr-0fF"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="2Jt-Z4-o7W"/>
+                        <barButtonItem title="Delete" id="jDH-p6-6mm"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="8FB-u5-Lan"/>
+                        <barButtonItem title="Help" id="nkx-Vi-KIg"/>
+                    </items>
+                </toolbar>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="x8k-Ur-gft" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="LCY-xZ-aWo"/>
+                <constraint firstItem="x8k-Ur-gft" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="QEg-Ko-nNZ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="x8k-Ur-gft" secondAttribute="trailing" id="UI7-P1-Fts"/>
+                <constraint firstItem="Yng-fz-srI" firstAttribute="bottom" secondItem="x8k-Ur-gft" secondAttribute="bottom" id="dHy-yT-Q3F"/>
+                <constraint firstItem="Yng-fz-srI" firstAttribute="leading" secondItem="x8k-Ur-gft" secondAttribute="leading" id="gl4-rY-sD2"/>
+                <constraint firstItem="Yng-fz-srI" firstAttribute="width" secondItem="x8k-Ur-gft" secondAttribute="width" id="lKk-Ig-qW4"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="x8k-Ur-gft" secondAttribute="bottom" id="wbg-2a-U3r"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="34.5" y="53.5"/>
+        </view>
+    </objects>
+</document>
